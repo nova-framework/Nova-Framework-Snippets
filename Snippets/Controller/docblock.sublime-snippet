@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/*
+ * Welcome controller
+ *
+ * @author ${1:}
+ * @version ${2:1.0}
+ * @date ${3:}
+ */
+]]></content>
+	<tabTrigger>smdocblock</tabTrigger>
+	<!-- <scope>source.php</scope> -->
+	<description>Create DocBlock</description>
+</snippet>

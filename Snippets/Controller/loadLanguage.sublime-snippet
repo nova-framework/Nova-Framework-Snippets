@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$this->language->load('${1:}');]]></content>
+    <tabTrigger>smloadlang</tabTrigger>
+    <scope>source.php</scope>
+    <description>Load Library File</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Router::any('${1:}/(:all)', '\controllers\\${2:welcome}@${3:index}');]]></content>
+	<tabTrigger>smanyrouteall</tabTrigger>
+	<scope>source.php</scope>
+	<description>Any Router with (:all) param</description>
+</snippet>

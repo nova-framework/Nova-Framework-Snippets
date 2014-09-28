@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+public function __construct(){
+	parent::__construct();
+	${1:}
+}
+]]></content>
+	<tabTrigger>smcon</tabTrigger>
+	<scope>source.php</scope>
+	<description>Run construct</description>
+</snippet>

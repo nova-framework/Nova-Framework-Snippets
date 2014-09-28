@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Router::post('${1:}/(:any)', '\controllers\\${2:welcome}@${3:index}');]]></content>
+	<tabTrigger>smpostrouteany</tabTrigger>
+	<scope>source.php</scope>
+	<description>Post Router with (:any) param</description>
+</snippet>

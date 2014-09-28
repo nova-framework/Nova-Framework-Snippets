@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$data['title'] = '${1:}';]]></content>
+    <tabTrigger>smdatatitle</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create Data Title</description>
+</snippet>

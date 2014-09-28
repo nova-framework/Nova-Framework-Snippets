@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+View::rendertemplate('${1:header}', \$data);
+View::render('${2:}/${3:}', \$data);
+View::rendertemplate('${4:footer}', \$data);
+]]></content>
+	<tabTrigger>smview</tabTrigger>
+	<scope>source.php</scope>
+	<description>Render View</description>
+</snippet>

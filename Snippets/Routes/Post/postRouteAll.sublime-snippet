@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[Router::post('${1:}/(:all)', '\controllers\\${2:welcome}@${3:index}');]]></content>
+	<tabTrigger>smpostrouteall</tabTrigger>
+	<scope>source.php</scope>
+	<description>Post Router with (:all) param</description>
+</snippet>
