@@ -37,4 +37,85 @@ git clone https://github.com/simple-mvc-framework/SMVC-Snippets.git SMVC-snippet
 [sublime]: http://www.sublimetext.com/
 [package_control]: http://wbond.net/sublime_packages/package_control
 
+All shortcuts start with the `sm` prefix
+
 ### List of avaiable shortcuts ###
+
+### Router ###
+
+####Any####
+
+`smanyroute`
+
+``` php
+Router::any('', '\controllers\welcome@index');
+```
+
+`smanyrouteany`
+
+``` php
+Router::any('/(:any)', '\controllers\welcome@index');
+```
+
+`smanyroutenum`
+
+``` php
+Router::any('/(:num)', '\controllers\welcome@index');
+```
+
+`smanyrouteall`
+
+``` php
+Router::any('/(:all)', '\controllers\welcome@index');
+```
+####Get####
+
+`smgetroute`
+
+``` php
+Router::get('', '\controllers\welcome@index');
+```
+
+`smgetrouteany`
+
+``` php
+Router::get('/(:any)', '\controllers\welcome@index');
+```
+
+`smgetroutenum`
+
+``` php
+Router::get('/(:num)', '\controllers\welcome@index');
+```
+
+`smgetrouteall`
+
+``` php
+Router::get('/(:all)', '\controllers\welcome@index');
+```
+
+####Post####
+
+`smpostroute`
+
+``` php
+Router::post('', '\controllers\welcome@index');
+```
+
+`smpostrouteany`
+
+``` php
+Router::post('/(:any)', '\controllers\welcome@index');
+```
+
+`smpostroutenum`
+
+``` php
+Router::post('/(:num)', '\controllers\welcome@index');
+```
+
+`smpostrouteall`
+
+``` php
+Router::post('/(:all)', '\controllers\welcome@index');
+```
