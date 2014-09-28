@@ -13,8 +13,26 @@ If you have the [Package Control][package_control] package installed, you can in
 
 If you haven't got Package Control installed you will need to make a clone of this repository into your packages folder, like so:
 
-    git clone https://github.com/simple-mvc-framework/SMVC_Snippets.git SMVC-snippets
+### On Mac ###
 
+```bash
+cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+git clone https://github.com/simple-mvc-framework/SMVC_Snippets.git SMVC-snippets
+```
+
+### On Linux ###
+
+```bash
+cd ~/.config/sublime-text-2/Packages/
+git clone https://github.com/simple-mvc-framework/SMVC_Snippets.git SMVC-snippets
+```
+
+### On Windows ###
+
+```
+cd %APPDATA%/Sublime Text 2/Packages/
+git clone https://github.com/simple-mvc-framework/SMVC_Snippets.git SMVC-snippets
+```
 
 [sublime]: http://www.sublimetext.com/
 [package_control]: http://wbond.net/sublime_packages/package_control
