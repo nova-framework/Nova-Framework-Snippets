@@ -1,7 +1,7 @@
-SMVC_Snippets
+SMVC Framework Snippets
 =============
 
-This is a [Sublime Text][sublime] package which includes a collection of Snippets.
+This is a [Sublime Text][sublime] package which includes a collection of Snippets for Simple MVC Framework.
 
 ## Installation ##
 
@@ -18,7 +18,5 @@ If you haven't got Package Control installed you will need to make a clone of th
 
 [sublime]: http://www.sublimetext.com/
 [package_control]: http://wbond.net/sublime_packages/package_control
-
-If you find error just fork it and send me a pull request.
 
 ### List of avaiable shortcuts ###
