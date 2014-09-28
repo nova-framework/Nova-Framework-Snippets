@@ -17,21 +17,21 @@ If you haven't got Package Control installed you will need to make a clone of th
 
 ```bash
 cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-git clone https://github.com/simple-mvc-framework/SMVC_Snippets.git SMVC-snippets
+git clone https://github.com/simple-mvc-framework/SMVC-Snippets.git SMVC-snippets
 ```
 
 ### On Linux ###
 
 ```bash
 cd ~/.config/sublime-text-2/Packages/
-git clone https://github.com/simple-mvc-framework/SMVC_Snippets.git SMVC-snippets
+git clone https://github.com/simple-mvc-framework/SMVC-Snippets.git SMVC-snippets
 ```
 
 ### On Windows ###
 
 ```
 cd %APPDATA%/Sublime Text 2/Packages/
-git clone https://github.com/simple-mvc-framework/SMVC_Snippets.git SMVC-snippets
+git clone https://github.com/simple-mvc-framework/SMVC-Snippets.git SMVC-snippets
 ```
 
 [sublime]: http://www.sublimetext.com/
