@@ -1,33 +1,35 @@
 SMVC Framework Snippets
 =============
 
-This is a [Sublime Text][sublime] package which includes a collection of Snippets for Simple MVC Framework.
+![Simple MVC Framework](http://simplemvcframework.com/app/templates/smvcf/img/logo.png)
 
-## Installation ##
+This is a [Sublime Text][sublime] package which includes a collection of Snippets for [Simple MVC Framework.](http://simplemvcframework.com)
 
-### With Package Control (NOT YET ACTIVE)###
+## Installation
+
+### With Package Control
 
 If you have the [Package Control][package_control] package installed, you can install SMVC Framework Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for SMVC Framework Snippets.
 
-### Without Package Control ###
+### Without Package Control
 
 If you haven't got Package Control installed you will need to make a clone of this repository into your packages folder, like so:
 
-### On Mac ###
+### On Mac
 
 ```bash
 cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
 git clone https://github.com/simple-mvc-framework/SMVC-Snippets.git SMVC-snippets
 ```
 
-### On Linux ###
+### On Linux
 
 ```bash
 cd ~/.config/sublime-text-2/Packages/
 git clone https://github.com/simple-mvc-framework/SMVC-Snippets.git SMVC-snippets
 ```
 
-### On Windows ###
+### On Windows
 
 ```
 cd %APPDATA%/Sublime Text 2/Packages/
@@ -41,9 +43,9 @@ All shortcuts start with the `sm` prefix
 
 ### List of avaiable shortcuts ###
 
-### Router ###
+### Router
 
-####Any####
+####Any
 
 `smanyroute`
 
@@ -94,7 +96,7 @@ Router::get('/(:num)', '\controllers\welcome@index');
 Router::get('/(:all)', '\controllers\welcome@index');
 ```
 
-####Post####
+####Post
 
 `smpostroute`
 
@@ -119,7 +121,7 @@ Router::post('/(:num)', '\controllers\welcome@index');
 ``` php
 Router::post('/(:all)', '\controllers\welcome@index');
 ```
-### Controller ###
+### Controller
 
 `smcontroller`
 
