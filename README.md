@@ -43,10 +43,13 @@ All shortcuts start with the `sm` prefix
 
 ### List of avaiable shortcuts ###
 
+(#smanyroute)
+
 ### Router
 
 ####Any
 
+[create an anchor](#smanyroute)
 `smanyroute`
 
 ``` php
