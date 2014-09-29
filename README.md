@@ -43,20 +43,20 @@ All shortcuts start with the `sm` prefix
 
 ### List of avaiable shortcuts ###
 
-[any route](#smanyroute)
-[any route any](#smanyrouteany)
-[any route num](#smanyroutenum)
-[any route all](#smanyrouteall)
+*[any route](#smanyroute)
+*[any route any](#smanyrouteany)
+*[any route num](#smanyroutenum)
+*[any route all](#smanyrouteall)
 
-[get route](#smgetroute)
-[get route any](#smgetrouteany)
-[get route num](#smgetroutenum)
-[get route all](#smgetrouteall)
+*[get route](#smgetroute)
+*[get route any](#smgetrouteany)
+*[get route num](#smgetroutenum)
+*[get route all](#smgetrouteall)
 
-[post route](#smpostroute)
-[post route any](#smpostrouteany)
-[post route num](#smpostroutenum)
-[post route all](#smpostrouteall)
+*[post route](#smpostroute)
+*[post route any](#smpostrouteany)
+*[post route num](#smpostroutenum)
+*[post route all](#smpostrouteall)
 
 
 ### Router
@@ -69,44 +69,44 @@ All shortcuts start with the `sm` prefix
 Router::any('', '\controllers\welcome@index');
 ```
 
-`smanyrouteany`
+#####smanyrouteany
 
 ``` php
 Router::any('/(:any)', '\controllers\welcome@index');
 ```
 
-`smanyroutenum`
+#####smanyroutenum
 
 ``` php
 Router::any('/(:num)', '\controllers\welcome@index');
 ```
 
-`smanyrouteall`
+#####smanyrouteall
 
 ``` php
 Router::any('/(:all)', '\controllers\welcome@index');
 ```
 ####Get####
 
-`smgetroute`
+#####smgetroute
 
 ``` php
 Router::get('', '\controllers\welcome@index');
 ```
 
-`smgetrouteany`
+#####smgetrouteany
 
 ``` php
 Router::get('/(:any)', '\controllers\welcome@index');
 ```
 
-`smgetroutenum`
+#####smgetroutenum
 
 ``` php
 Router::get('/(:num)', '\controllers\welcome@index');
 ```
 
-`smgetrouteall`
+#####smgetrouteall
 
 ``` php
 Router::get('/(:all)', '\controllers\welcome@index');
@@ -114,25 +114,25 @@ Router::get('/(:all)', '\controllers\welcome@index');
 
 ####Post
 
-`smpostroute`
+#####smpostroute
 
 ``` php
 Router::post('', '\controllers\welcome@index');
 ```
 
-`smpostrouteany`
+#####smpostrouteany
 
 ``` php
 Router::post('/(:any)', '\controllers\welcome@index');
 ```
 
-`smpostroutenum`
+#####smpostroutenum
 
 ``` php
 Router::post('/(:num)', '\controllers\welcome@index');
 ```
 
-`smpostrouteall`
+#####smpostrouteall
 
 ``` php
 Router::post('/(:all)', '\controllers\welcome@index');
