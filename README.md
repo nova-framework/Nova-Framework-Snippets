@@ -39,7 +39,7 @@ git clone https://github.com/simple-mvc-framework/SMVC-Snippets.git SMVC-snippet
 [sublime]: http://www.sublimetext.com/
 [package_control]: http://wbond.net/sublime_packages/package_control
 
-All shortcuts start with the `sm` prefix
+All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 
 ### List of avaiable shortcuts ###
 
