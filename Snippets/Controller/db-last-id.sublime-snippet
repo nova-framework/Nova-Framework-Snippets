@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->_db->lastInsertId('${1:}');
+]]></content>
+    <tabTrigger>smdblastid</tabTrigger>
+    <scope>source.php</scope>
+    <description>Last DB ID</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$postdata = array(${2:});]]></content>
+    <tabTrigger>smpostdata</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create Post Data Array</description>
+</snippet>

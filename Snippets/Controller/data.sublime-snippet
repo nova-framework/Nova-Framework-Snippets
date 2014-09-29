@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\$data['${1:}'] = '${2:}';]]></content>
+    <tabTrigger>smdata</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create Data Array Key</description>
+</snippet>

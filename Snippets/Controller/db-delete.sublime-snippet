@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->_db->delete(PREFIX.'${1:}',\$data);
+]]></content>
+    <tabTrigger>smdbdelete</tabTrigger>
+    <scope>source.php</scope>
+    <description>Last DB ID</description>
+</snippet>

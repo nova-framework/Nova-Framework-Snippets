@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$this->_db->select("SELECT * FROM ".PREFIX."${1:}"${2:,array('${3:}' => \$${4:}))});
+]]></content>
+    <tabTrigger>smdbselect</tabTrigger>
+    <scope>source.php</scope>
+    <description>Select from DB</description>
+</snippet>

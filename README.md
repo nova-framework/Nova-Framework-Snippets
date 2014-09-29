@@ -58,10 +58,20 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Controller](#smcontroller)
 * [Construct](#smcon)
 * [DocBlock](#smdocblock)
+* [Data](#smdata)
 * [Data Title](#smdatatitle)
 * [View](#smview)
 * [Load Language](#smloadlang)
 * [Get Language](#smgetlang)
+* [Use](#smuse)
+* [Function](#smfun)
+* [DB Select](#smdbselect)
+* [DB Insert](#smdbinsert)
+* [DB Last ID](#smdblastid)
+* [DB Update](#smdbupdate)
+* [DB Delete](#smdbdelete)
+* [DB Truncate](#smdbtrun)
+* [Post Data](#smpostdata)
 
 
 ### Router
@@ -185,6 +195,12 @@ public function __construct(){
  */
 ```
 
+#####smdata
+
+``` 
+$data[''] = '';
+```
+
 #####smdatatitle
 
 ``` 
@@ -209,4 +225,60 @@ $this->language->load('');
 
 ``` 
 $this->language->get('');
+```
+
+#####smuse
+
+``` 
+use core\view as View;
+```
+
+#####smfun
+
+``` 
+public function (){
+	
+}
+```
+
+#####smdbselect
+
+``` 
+$this->_db->select("SELECT * FROM ".PREFIX."");
+```
+
+#####smdbinsert
+
+``` 
+$this->_db->insert(PREFIX.'',$data);
+```
+
+#####smdblastid
+
+``` 
+$this->_db->lastInsertId('');
+```
+
+#####smdbupdate
+
+``` 
+$this->_db->update(PREFIX.'',$data, $where);
+```
+
+#####smdbdelete
+
+``` 
+$this->_db->delete(PREFIX.'',$data);
+```
+
+#####smdbtrun
+
+``` 
+$this->_db->truncate($table);
+```
+
+#####smpostdata
+
+``` 
+$postdata = array();
 ```
