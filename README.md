@@ -49,7 +49,7 @@ All shortcuts start with the `sm` prefix
 
 ####Any
 
-#smanyroute
+#####smanyroute
 
 ``` php
 Router::any('', '\controllers\welcome@index');
