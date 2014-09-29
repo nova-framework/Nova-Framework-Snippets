@@ -43,20 +43,20 @@ All shortcuts start with the `sm` prefix
 
 ### List of avaiable shortcuts ###
 
-*[any route](#smanyroute)
-*[any route any](#smanyrouteany)
-*[any route num](#smanyroutenum)
-*[any route all](#smanyrouteall)
+* [any route](#smanyroute)
+* [any route any](#smanyrouteany)
+* [any route num](#smanyroutenum)
+* [any route all](#smanyrouteall)
 
-*[get route](#smgetroute)
-*[get route any](#smgetrouteany)
-*[get route num](#smgetroutenum)
-*[get route all](#smgetrouteall)
+* [get route](#smgetroute)
+* [get route any](#smgetrouteany)
+* [get route num](#smgetroutenum)
+* [get route all](#smgetrouteall)
 
-*[post route](#smpostroute)
-*[post route any](#smpostrouteany)
-*[post route num](#smpostroutenum)
-*[post route all](#smpostrouteall)
+* [post route](#smpostroute)
+* [post route any](#smpostrouteany)
+* [post route num](#smpostroutenum)
+* [post route all](#smpostrouteall)
 
 
 ### Router
