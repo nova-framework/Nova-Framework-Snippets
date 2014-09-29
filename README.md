@@ -47,12 +47,10 @@ All shortcuts start with the `sm` prefix
 * [any route any](#smanyrouteany)
 * [any route num](#smanyroutenum)
 * [any route all](#smanyrouteall)
-
 * [get route](#smgetroute)
 * [get route any](#smgetrouteany)
 * [get route num](#smgetroutenum)
 * [get route all](#smgetrouteall)
-
 * [post route](#smpostroute)
 * [post route any](#smpostrouteany)
 * [post route num](#smpostroutenum)
