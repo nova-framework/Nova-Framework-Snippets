@@ -43,18 +43,25 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 
 ### List of avaiable shortcuts ###
 
-* [any route](#smanyroute)
-* [any route any](#smanyrouteany)
-* [any route num](#smanyroutenum)
-* [any route all](#smanyrouteall)
-* [get route](#smgetroute)
-* [get route any](#smgetrouteany)
-* [get route num](#smgetroutenum)
-* [get route all](#smgetrouteall)
-* [post route](#smpostroute)
-* [post route any](#smpostrouteany)
-* [post route num](#smpostroutenum)
-* [post route all](#smpostrouteall)
+* [Any Route](#smanyroute)
+* [Any Route Any](#smanyrouteany)
+* [Any Route Num](#smanyroutenum)
+* [Any Route All](#smanyrouteall)
+* [Get Route](#smgetroute)
+* [Get Route Any](#smgetrouteany)
+* [Get Route Num](#smgetroutenum)
+* [Get Route All](#smgetrouteall)
+* [Post Route](#smpostroute)
+* [Post Route Any](#smpostrouteany)
+* [Post Route Num](#smpostroutenum)
+* [Post Route All](#smpostrouteall)
+* [Controller](#smcontroller)
+* [Construct](#smcon)
+* [DocBlock](#smdocblock)
+* [Data Title](#smdatatitle)
+* [View](#smview)
+* [Load Language](#smloadlang)
+* [Get Language](#smgetlang)
 
 
 ### Router
@@ -137,7 +144,7 @@ Router::post('/(:all)', '\controllers\welcome@index');
 ```
 ### Controller
 
-`smcontroller`
+#####smcontroller
 
 ``` 
 <?php namespace controllers;
@@ -157,7 +164,7 @@ class  extends \core\controller{
 }
 ```
 
-`smcon`
+#####smcon
 
 ``` 
 public function __construct(){
@@ -166,7 +173,7 @@ public function __construct(){
 }
 ```
 
-`smdocblock`
+#####smdocblock
 
 ``` 
 /*
@@ -178,13 +185,13 @@ public function __construct(){
  */
 ```
 
-`smdatatitle`
+#####smdatatitle
 
 ``` 
 $data['title'] = '';
 ```
 
-`smview`
+#####smview
 
 ``` 
 View::rendertemplate('header', $data);
@@ -192,13 +199,13 @@ View::render('/', $data);
 View::rendertemplate('footer', $data);
 ```
 
-`smloadlang`
+#####smloadlang
 
 ``` 
 $this->language->load('');
 ```
 
-`smgetlang`
+#####smgetlang
 
 ``` 
 $this->language->get('');
