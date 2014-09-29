@@ -9,7 +9,7 @@ This is a [Sublime Text][sublime] package which includes a collection of Snippet
 
 ### With Package Control
 
-If you have the [Package Control][package_control] package installed, you can install SMVC Framework Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for SMVC Framework Snippets.
+If you have the [Package Control][package_control] package installed, you can install SMVC Framework Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for Simple MVC Framework Snippets.
 
 ### Without Package Control
 
