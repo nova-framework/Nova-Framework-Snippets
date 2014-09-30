@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\helpers\session::set('${1:}','${2:}');
+]]></content>
+    <tabTrigger>smsesset</tabTrigger>
+    <scope>source.php</scope>
+    <description>Set Session</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\helpers\session::display();
+]]></content>
+    <tabTrigger>smsesdisplay</tabTrigger>
+    <scope>source.php</scope>
+    <description>Return Session Data</description>
+</snippet>

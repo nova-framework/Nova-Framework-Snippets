@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\$data['${1:}'];
+]]></content>
+    <tabTrigger>smechodata</tabTrigger>
+    <scope>source.php</scope>
+    <description>Print Data Key</description>
+</snippet>

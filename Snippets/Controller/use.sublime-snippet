@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[use ${1:core}\\${2:view} as ${3:View};]]></content>
+    <content><![CDATA[
+use ${1:core}\\${2:view} as ${3:View};
+]]></content>
     <tabTrigger>smuse</tabTrigger>
     <scope>source.php</scope>
     <description>Create Data Title</description>

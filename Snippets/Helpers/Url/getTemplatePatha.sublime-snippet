@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Url::get_template_path();
+]]></content>
+    <tabTrigger>smurlgettempa</tabTrigger>
+    <scope>source.php</scope>
+    <description>Alias Get Template Path</description>
+</snippet>

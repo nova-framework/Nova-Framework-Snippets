@@ -43,6 +43,8 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 
 ### List of avaiable shortcuts ###
 
+(placeholder) = cursor will be placed on each tab.
+
 * [Any Route](#smanyroute)
 * [Any Route Any](#smanyrouteany)
 * [Any Route Num](#smanyroutenum)
@@ -60,10 +62,13 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [DocBlock](#smdocblock)
 * [Data](#smdata)
 * [Data Title](#smdatatitle)
+* [Echo Data](#smechodata)
 * [View](#smview)
 * [Load Language](#smloadlang)
 * [Get Language](#smgetlang)
+* [Set Language](#smsetlang)
 * [Use](#smuse)
+* [Alias](#smalias)
 * [Function](#smfun)
 * [DB Select](#smdbselect)
 * [DB Insert](#smdbinsert)
@@ -72,6 +77,28 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [DB Delete](#smdbdelete)
 * [DB Truncate](#smdbtrun)
 * [Post Data](#smpostdata)
+* [this](#smthis)
+* [Data Row](#smdatarow)
+* [Url Autolink](#smurlautolink)
+* [Url Autolink Alias](#smurlautolinka)
+* [Url Get Template Path](#smurlgettemp)
+* [Url Get Template Path Alias](#smurlgettempa)
+* [Url Previous](#smurlprev)
+* [Url Previous Alias](#smurlpreva)
+* [Url Redirect](#smurlredirect)
+* [Url Redirect Alias](#smurlredirecta)
+* [Session Set](#smsesset)
+* [Session Set Alias](#smsesseta)
+* [Session Pull](#smsespull)
+* [Session Pull Alias](#smsespulla)
+* [Session Get](#smsesget)
+* [Session Get Alias](#smsesgeta)
+* [Session id](#smsesid)
+* [Session id Alias](#smsesida)
+* [Session Display](#smsesdisplay)
+* [Session Display Alias](#smsesdisplaya)
+* [Session Destroy](#smsesdestroy)
+* [Session Destroy Alias](#smsesdestroya)
 
 
 ### Router
@@ -81,50 +108,50 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 #####smanyroute
 
 ``` php
-Router::any('', '\controllers\welcome@index');
+Router::any('(placeholder)', '\controllers\welcome@index');
 ```
 
 #####smanyrouteany
 
 ``` php
-Router::any('/(:any)', '\controllers\welcome@index');
+Router::any('(placeholder)/(:any)', '\controllers\welcome@index');
 ```
 
 #####smanyroutenum
 
 ``` php
-Router::any('/(:num)', '\controllers\welcome@index');
+Router::any('(placeholder)/(:num)', '\controllers\welcome@index');
 ```
 
 #####smanyrouteall
 
 ``` php
-Router::any('/(:all)', '\controllers\welcome@index');
+Router::any('(placeholder)/(:all)', '\controllers\welcome@index');
 ```
 ####Get####
 
 #####smgetroute
 
 ``` php
-Router::get('', '\controllers\welcome@index');
+Router::get('(placeholder)', '\controllers\welcome@index');
 ```
 
 #####smgetrouteany
 
 ``` php
-Router::get('/(:any)', '\controllers\welcome@index');
+Router::get('(placeholder)/(:any)', '\controllers\welcome@index');
 ```
 
 #####smgetroutenum
 
 ``` php
-Router::get('/(:num)', '\controllers\welcome@index');
+Router::get('(placeholder)/(:num)', '\controllers\welcome@index');
 ```
 
 #####smgetrouteall
 
 ``` php
-Router::get('/(:all)', '\controllers\welcome@index');
+Router::get('(placeholder)/(:all)', '\controllers\welcome@index');
 ```
 
 ####Post
@@ -132,25 +159,25 @@ Router::get('/(:all)', '\controllers\welcome@index');
 #####smpostroute
 
 ``` php
-Router::post('', '\controllers\welcome@index');
+Router::post('(placeholder)', '\controllers\welcome@index');
 ```
 
 #####smpostrouteany
 
 ``` php
-Router::post('/(:any)', '\controllers\welcome@index');
+Router::post('(placeholder)/(:any)', '\controllers\welcome@index');
 ```
 
 #####smpostroutenum
 
 ``` php
-Router::post('/(:num)', '\controllers\welcome@index');
+Router::post('(placeholder)/(:num)', '\controllers\welcome@index');
 ```
 
 #####smpostrouteall
 
 ``` php
-Router::post('/(:all)', '\controllers\welcome@index');
+Router::post('(placeholder)/(:all)', '\controllers\welcome@index');
 ```
 ### Controller
 
@@ -160,15 +187,15 @@ Router::post('/(:all)', '\controllers\welcome@index');
 <?php namespace controllers;
 use core\view as View;
 
-class  extends \core\controller{
+class (placeholder) extends \core\controller{
 
 	public function __construct(){
 		parent::__construct();
-		
+		(placeholder)
 	}
 
 	public function index(){
-		
+		(placeholder)
 	}
 	
 }
@@ -179,7 +206,7 @@ class  extends \core\controller{
 ``` 
 public function __construct(){
 	parent::__construct();
-	
+	(placeholder)
 }
 ```
 
@@ -187,44 +214,56 @@ public function __construct(){
 
 ``` 
 /*
- * Welcome controller
+ * (placeholder) (placeholder)
  *
- * @author 
- * @version 1.0
- * @date 
+ * @author (placeholder)
+ * @version (placeholder)
+ * @date (placeholder)
  */
 ```
 
 #####smdata
 
 ``` 
-$data[''] = '';
+$data['(placeholder)'] = '(placeholder)';
 ```
 
 #####smdatatitle
 
 ``` 
-$data['title'] = '';
+$data['title'] = '(placeholder)';
+```
+
+#####smechodata
+
+``` 
+$data['(placeholder)'];
 ```
 
 #####smview
 
 ``` 
 View::rendertemplate('header', $data);
-View::render('/', $data);
+View::render('(placeholder)/(placeholder)', $data);
 View::rendertemplate('footer', $data);
 ```
 
 #####smloadlang
 
 ``` 
-$this->language->load('');
+$this->language->load('(placeholder)');
 ```
 
 #####smgetlang
 
 ``` 
-$this->language->get('');
+$this->language->get('(placeholder)');
+```
+
+#####smsetlang
+
+``` 
+$lang['(placeholder)'] = '(placeholder)';
 ```
 
 #####smuse
@@ -233,42 +272,48 @@ $this->language->get('');
 use core\view as View;
 ```
 
+#####smalias
+
+``` 
+use core\(placeholder) as (placeholder);
+```
+
 #####smfun
 
 ``` 
-public function (){
-	
+public function (placeholder)((placeholder)){
+	(placeholder)
 }
 ```
 
 #####smdbselect
 
 ``` 
-$this->_db->select("SELECT * FROM ".PREFIX."");
+$this->_db->select("SELECT * FROM ".PREFIX."(placeholder)"(placeholder));
 ```
 
 #####smdbinsert
 
 ``` 
-$this->_db->insert(PREFIX.'',$data);
+$this->_db->insert(PREFIX.'(placeholder)',$data);
 ```
 
 #####smdblastid
 
 ``` 
-$this->_db->lastInsertId('');
+$this->_db->lastInsertId('(placeholder)');
 ```
 
 #####smdbupdate
 
 ``` 
-$this->_db->update(PREFIX.'',$data, $where);
+$this->_db->update(PREFIX.'(placeholder)',$data, $where);
 ```
 
 #####smdbdelete
 
 ``` 
-$this->_db->delete(PREFIX.'',$data);
+$this->_db->delete(PREFIX.'(placeholder)',$data);
 ```
 
 #####smdbtrun
@@ -281,4 +326,136 @@ $this->_db->truncate($table);
 
 ``` 
 $postdata = array();
+```
+
+#####smthis
+
+``` 
+$this->(placeholder);
+```
+
+#####smdatarow
+
+``` 
+$data[''][0]->(placeholder);
+```
+
+#####smurlautolink
+
+``` 
+\helpers\url::autolink('(placeholder)' (placeholder));
+```
+
+#####smurlautolinka
+
+``` 
+Url::autolink('(placeholder)' (placeholder));
+```
+
+#####smurlgettemp
+
+``` 
+\helpers\url::get_template_path();
+```
+
+#####smurlgettempa
+
+``` 
+Url::get_template_path();
+```
+
+#####smurlprev
+
+``` 
+\helpers\url::previous();
+```
+
+#####smurlpreva
+
+``` 
+Url::previous();
+```
+
+#####smurlredirect
+
+``` 
+\helpers\url::redirect('(placeholder)');
+```
+
+#####smurlredirecta
+
+``` 
+Url::redirect('(placeholder)');
+```
+
+#####smsesset
+
+``` 
+\helpers\session::set('(placeholder)','(placeholder)');
+```
+
+#####smsesseta
+
+``` 
+Session::set('(placeholder)','(placeholder)');
+```
+
+#####smsespull
+
+``` 
+\helpers\session::pull('(placeholder)');
+```
+
+#####smsespulla
+
+``` 
+Session::pull('(placeholder)');
+```
+
+#####smsesget
+
+``` 
+\helpers\session::get('(placeholder)');
+```
+
+#####smsesgeta
+
+``` 
+Session::get('(placeholder)');
+```
+
+#####smsesid
+
+``` 
+\helpers\session::id();
+```
+
+#####smsesida
+
+``` 
+Session::id();
+```
+
+#####smsesdisplay
+
+``` 
+\helpers\session::display();
+```
+
+#####smsesdisplaya
+
+``` 
+Session::display();
+```
+
+#####smsesdestroy
+
+``` 
+\helpers\session::destroy('(placeholder)');
+```
+
+#####smsesdestroya
+
+``` 
+Session::destroy('(placeholder)');
 ```

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\helpers\url::redirect('${1:}');
+]]></content>
+    <tabTrigger>smurlredirect</tabTrigger>
+    <scope>source.php</scope>
+    <description>Redirect To</description>
+</snippet>

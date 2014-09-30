@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+\helpers\session::id();
+]]></content>
+    <tabTrigger>smsesid</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Session ID</description>
+</snippet>

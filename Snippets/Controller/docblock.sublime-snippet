@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
 /*
- * Welcome controller
+ * ${1:} ${2:controller}
  *
- * @author ${1:}
- * @version ${2:1.0}
- * @date ${3:}
+ * @author ${3:}
+ * @version ${4:1.0}
+ * @date ${5:}
  */
 ]]></content>
 	<tabTrigger>smdocblock</tabTrigger>
