@@ -1,19 +1,31 @@
 <snippet>
 	<content><![CDATA[
-<?php namespace ${1:controllers};
-use core\view as View;
+namespace Controllers;
 
-class ${2:} extends \core\\${3:controller}{
+use Core\View;
+use Core\Controller;
 
-	public function __construct(){
-		parent::__construct();
-		${4:}
-	}
+/*
+ * ${1:class_name} controller
+ */
+class ${1:class_name} extends Controller
+{
 
-	public function index(){
-		${5:}
-	}
-	
+    /**
+     * Call the parent construct
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    /**
+     * Define Index method
+     */
+    public function index()
+    {
+        ${2:method_data}
+    }
 }
 ]]></content>
 	<tabTrigger>smcontroller</tabTrigger>
