@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$this->language->load('${1:}');
+\$this->language->get('${1:}');
 ]]></content>
     <tabTrigger>smgetlang</tabTrigger>
     <scope>source.php</scope>
