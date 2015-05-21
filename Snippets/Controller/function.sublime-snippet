@@ -1,10 +1,11 @@
 <snippet>
-	<content><![CDATA[
-${1:public} function ${2:}(${3:}){
-	${4:}
+    <content><![CDATA[
+${1:public} function ${2:}(${3:})
+{
+    ${4:}
 }
 ]]></content>
-	<tabTrigger>smfun</tabTrigger>
-	<scope>source.php</scope>
-	<description>Create Function</description>
+    <tabTrigger>smfun</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create Function</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$data['${1:}'];
+echo \$data['${1:}'];
 ]]></content>
     <tabTrigger>smechodata</tabTrigger>
     <scope>source.php</scope>
