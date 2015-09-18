@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->_db->update(PREFIX.'${1:}',\$data, \$where);
+\$this->db->update(PREFIX.'${1:}',\$data, \$where);
 ]]></content>
     <tabTrigger>smdbupdate</tabTrigger>
     <scope>source.php</scope>

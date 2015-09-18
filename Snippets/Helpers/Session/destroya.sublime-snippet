@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Session::destroy('${1:}');
-]]></content>
-    <tabTrigger>smsesdestroya</tabTrigger>
-    <scope>source.php</scope>
-    <description>Alias Destroy Session Key</description>
-</snippet>

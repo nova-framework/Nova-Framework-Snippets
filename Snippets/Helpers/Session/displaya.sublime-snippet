@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Session::display();
-]]></content>
-    <tabTrigger>smsesdisplaya</tabTrigger>
-    <scope>source.php</scope>
-    <description>Alias Return Session Data</description>
-</snippet>

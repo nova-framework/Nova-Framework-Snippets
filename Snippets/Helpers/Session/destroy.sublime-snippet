@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\helpers\session::destroy('${1:}');
+Session::destroy('${1:}');
 ]]></content>
     <tabTrigger>smsesdestroy</tabTrigger>
     <scope>source.php</scope>

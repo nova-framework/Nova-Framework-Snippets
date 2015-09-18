@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\helpers\session::display();
+Session::display();
 ]]></content>
     <tabTrigger>smsesdisplay</tabTrigger>
     <scope>source.php</scope>

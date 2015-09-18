@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->_db->lastInsertId('${1:}');
+\$this->db->lastInsertId('${1:}');
 ]]></content>
     <tabTrigger>smdblastid</tabTrigger>
     <scope>source.php</scope>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->_db->truncate(${1:\$table});
+\$this->db->truncate(${1:\$table});
 ]]></content>
     <tabTrigger>smdbtrun</tabTrigger>
     <scope>source.php</scope>

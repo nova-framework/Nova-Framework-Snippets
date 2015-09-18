@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->_db->delete(PREFIX.'${1:}',\$data);
+\$this->db->delete(PREFIX.'${1:}',\$data);
 ]]></content>
     <tabTrigger>smdbdelete</tabTrigger>
     <scope>source.php</scope>

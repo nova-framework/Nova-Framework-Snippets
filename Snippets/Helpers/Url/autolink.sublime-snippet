@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\helpers\url::autolink('${1:}' ${2:,''});
+Url::autolink('${1:}' ${2:,''});
 ]]></content>
     <tabTrigger>smurlautolink</tabTrigger>
     <scope>source.php</scope>

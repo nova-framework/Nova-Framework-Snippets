@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Session::get('${1:}');
-]]></content>
-    <tabTrigger>smsesgeta</tabTrigger>
-    <scope>source.php</scope>
-    <description>Alias Get Session Key</description>
-</snippet>

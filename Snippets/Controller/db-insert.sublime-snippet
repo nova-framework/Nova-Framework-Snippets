@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->_db->insert(PREFIX.'${1:}',\$data);
+\$this->db->insert(PREFIX.'${1:}',\$data);
 ]]></content>
     <tabTrigger>smdbinsert</tabTrigger>
     <scope>source.php</scope>

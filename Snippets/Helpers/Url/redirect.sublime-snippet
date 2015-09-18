@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\helpers\url::redirect('${1:}');
+Url::redirect('${1:}');
 ]]></content>
     <tabTrigger>smurlredirect</tabTrigger>
     <scope>source.php</scope>

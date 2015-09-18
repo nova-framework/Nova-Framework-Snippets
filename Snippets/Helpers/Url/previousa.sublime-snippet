@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Url::previous();
-]]></content>
-    <tabTrigger>smurlpreva</tabTrigger>
-    <scope>source.php</scope>
-    <description>Alias Previous</description>
-</snippet>

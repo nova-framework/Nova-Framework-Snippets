@@ -6,8 +6,9 @@ use Core\View;
 use Core\Controller;
 
 /*
- * ${1:class_name} controller
- */
+*
+* ${1:class_name} controller
+*/
 class ${1:class_name} extends Controller
 {
 
@@ -24,7 +25,7 @@ class ${1:class_name} extends Controller
      */
     public function index()
     {
-        ${2:method_data}
+        ${2:}
     }
 }
 ]]></content>

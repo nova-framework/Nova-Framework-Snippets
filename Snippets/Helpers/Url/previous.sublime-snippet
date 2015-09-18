@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\helpers\url::previous();
+Url::previous();
 ]]></content>
     <tabTrigger>smurlprev</tabTrigger>
     <scope>source.php</scope>

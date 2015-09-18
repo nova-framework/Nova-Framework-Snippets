@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[
-Session::pull('${1:}');
-]]></content>
-    <tabTrigger>smsespulla</tabTrigger>
-    <scope>source.php</scope>
-    <description>Alias Pull Session Key</description>
-</snippet>

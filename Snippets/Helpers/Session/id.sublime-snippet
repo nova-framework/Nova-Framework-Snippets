@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\helpers\session::id();
+Session::id();
 ]]></content>
     <tabTrigger>smsesid</tabTrigger>
     <scope>source.php</scope>

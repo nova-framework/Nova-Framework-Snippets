@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-use ${1:core}\\${2:view} as ${3:View};
+use ${1:Core}\\${2:View};
 ]]></content>
     <tabTrigger>smuse</tabTrigger>
     <scope>source.php</scope>

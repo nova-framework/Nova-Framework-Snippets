@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\helpers\url::get_template_path();
+Url::get_template_path();
 ]]></content>
     <tabTrigger>smurlgettemp</tabTrigger>
     <scope>source.php</scope>

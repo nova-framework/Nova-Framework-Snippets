@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$this->_db->select("SELECT * FROM ".PREFIX."${1:}"${2:,array('${3:}' => \$${4:}))});
+\$this->db->select("SELECT ${1:} FROM ".PREFIX."${2:}"${3:,array('${4:}' => \$${5:}))});
 ]]></content>
     <tabTrigger>smdbselect</tabTrigger>
     <scope>source.php</scope>

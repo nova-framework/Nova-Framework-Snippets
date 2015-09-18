@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\helpers\session::get('${1:}');
+Session::get('${1:}');
 ]]></content>
     <tabTrigger>smsesget</tabTrigger>
     <scope>source.php</scope>
