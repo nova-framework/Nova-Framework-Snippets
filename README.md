@@ -54,8 +54,12 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Url Autolink](#smurlautolink)
 * [Url Template Path](#smurltemppath)
 * [Url Previous](#smurlprev)
-* [Url Previous Alias](#smurlpreva)
 * [Url Redirect](#smurlredirect)
+* [Url Generate Safe Slug](#smurlgeneratesafeslug)
+* [Url Segments](#smurlsegments)
+* [Url Get Segment](#smurlgetsegment)
+* [Url First Segment](#smurlfirstsegment)
+* [Url Last Segment](#smurllastsegment)
 * [Session Set](#smsesset)
 * [Session Pull](#smsespull)
 * [Session Get](#smsesget)
@@ -338,6 +342,42 @@ Url::previous();
 
 ```
 Url::redirect('(placeholder)');
+```
+
+
+*
+* [Url Get Segment](#smurlgetsegment)
+* [Url First Segment](#smurlfirstsegment)
+* [Url Last Segment](#smurllastsegment)
+
+#####smurlgeneratesafeslug
+
+```
+Url::generateSafeSlug('(placeholder)');
+```
+
+#####smurlsegments
+
+```
+Url::segments();
+```
+
+#####smurlgetsegment
+
+```
+Url::getSegment('(placeholder)', '(placeholder)');
+```
+
+#####smurlfirstsegment
+
+```
+Url::firstSegment('(placeholder)');
+```
+
+#####smurllastsegment
+
+```
+Url::lastSegment('(placeholder)');
 ```
 
 #####smsesset

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Url::getSegment('${1:$segments}, ${1:0}');
+]]></content>
+    <tabTrigger>smurlgetsegment</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get segment index</description>
+</snippet>

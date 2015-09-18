@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Url::sagments();
+]]></content>
+    <tabTrigger>smurlsegments</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create url segments</description>
+</snippet>
