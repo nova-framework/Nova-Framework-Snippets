@@ -17,6 +17,7 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 
 (placeholder) = cursor will be placed on each tab.
 
+####Routes
 * [Any Route](#smanyroute)
 * [Any Route Any](#smanyrouteany)
 * [Any Route Num](#smanyroutenum)
@@ -29,6 +30,8 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Post Route Any](#smpostrouteany)
 * [Post Route Num](#smpostroutenum)
 * [Post Route All](#smpostrouteall)
+
+####Core
 * [Controller](#smcontroller)
 * [Construct](#smcon)
 * [DocBlock](#smdocblock)
@@ -51,6 +54,10 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Post Data](#smpostdata)
 * [this](#smthis)
 * [Data Row](#smdatarow)
+
+####Helpers
+
+#####Url
 * [Url Autolink](#smurlautolink)
 * [Url Template Path](#smurltemppath)
 * [Url Previous](#smurlprev)
@@ -60,6 +67,8 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Url Get Segment](#smurlgetsegment)
 * [Url First Segment](#smurlfirstsegment)
 * [Url Last Segment](#smurllastsegment)
+
+#####Session
 * [Session Set](#smsesset)
 * [Session Pull](#smsespull)
 * [Session Get](#smsesget)
@@ -343,12 +352,6 @@ Url::previous();
 ```
 Url::redirect('(placeholder)');
 ```
-
-
-*
-* [Url Get Segment](#smurlgetsegment)
-* [Url First Segment](#smurlfirstsegment)
-* [Url Last Segment](#smurllastsegment)
 
 #####smurlgeneratesafeslug
 
