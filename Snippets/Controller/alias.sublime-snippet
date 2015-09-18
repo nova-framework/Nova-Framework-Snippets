@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:Helpers}\\${2:};
+use ${1:Helpers}\\${2:};
 ]]></content>
     <tabTrigger>smalias</tabTrigger>
     <scope>source.php</scope>
