@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[Router::get('${1:}/(:any)', '\controllers\\${2:welcome}@${3:index}');]]></content>
+	<content><![CDATA[Router::get('${1:}/(:any)', 'Controllers\\${2:Welcome}@${3:index}');]]></content>
 	<tabTrigger>smgetrouteany</tabTrigger>
 	<scope>source.php</scope>
 	<description>Get Router with (:any) param</description>

@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[Router::get('${1:}', '\controllers\\${2:welcome}@${3:index}');]]></content>
+	<content><![CDATA[Router::get('${1:}', 'Controllers\\${2:Welcome}@${3:index}');]]></content>
 	<tabTrigger>smgetroute</tabTrigger>
 	<scope>source.php</scope>
 	<description>Get Router</description>

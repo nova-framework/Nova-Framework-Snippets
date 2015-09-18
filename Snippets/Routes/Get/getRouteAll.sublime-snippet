@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[Router::get('${1:}/(:all)', '\controllers\\${2:welcome}@${3:index}');]]></content>
+	<content><![CDATA[Router::get('${1:}/(:all)', 'Controllers\\${2:Welcome}@${3:index}');]]></content>
 	<tabTrigger>smgetrouteall</tabTrigger>
 	<scope>source.php</scope>
 	<description>Get Router with (:all) param</description>
