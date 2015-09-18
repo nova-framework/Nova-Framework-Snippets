@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Assets::css('${1:}');
+]]></content>
+    <tabTrigger>smassetscss</tabTrigger>
+    <scope>source.php</scope>
+    <description>Assets CSS</description>
+</snippet>

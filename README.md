@@ -57,6 +57,10 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 
 ####Helpers
 
+#####Assets
+* [Assert CSS](#smassetscss)
+* [Assert JS](#smassetsjs)
+
 #####Url
 * [Url Autolink](#smurlautolink)
 * [Url Template Path](#smurltemppath)
@@ -327,6 +331,19 @@ $this->(placeholder);
 
 ```
 $data[''][0]->(placeholder);
+```
+
+
+#####smassetscss
+
+```
+Assets::css('(placeholder)');
+```
+
+#####smassetsjs
+
+```
+Assets::js('(placeholder)');
 ```
 
 #####smurlautolink
