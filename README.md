@@ -219,9 +219,9 @@ $data['(placeholder)'];
 #####smview
 
 ```
-View::rendertemplate('header', $data);
+View::renderTemplate('header', $data);
 View::render('(placeholder)/(placeholder)', $data);
-View::rendertemplate('footer', $data);
+View::renderTemplate('footer', $data);
 ```
 
 #####smloadlang
@@ -245,13 +245,13 @@ $lang['(placeholder)'] = '(placeholder)';
 #####smuse
 
 ```
-use core\view as View;
+use Core\View;
 ```
 
 #####smalias
 
 ```
-use core\(placeholder) as (placeholder);
+use Helpers\(placeholder);
 ```
 
 #####smfun
@@ -265,37 +265,37 @@ public function (placeholder)((placeholder)){
 #####smdbselect
 
 ```
-$this->_db->select("SELECT * FROM ".PREFIX."(placeholder)"(placeholder));
+$this->db->select("SELECT * FROM ".PREFIX."(placeholder)"(placeholder));
 ```
 
 #####smdbinsert
 
 ```
-$this->_db->insert(PREFIX.'(placeholder)',$data);
+$this->db->insert(PREFIX.'(placeholder)',$data);
 ```
 
 #####smdblastid
 
 ```
-$this->_db->lastInsertId('(placeholder)');
+$this->db->lastInsertId('(placeholder)');
 ```
 
 #####smdbupdate
 
 ```
-$this->_db->update(PREFIX.'(placeholder)',$data, $where);
+$this->db->update(PREFIX.'(placeholder)',$data, $where);
 ```
 
 #####smdbdelete
 
 ```
-$this->_db->delete(PREFIX.'(placeholder)',$data);
+$this->db->delete(PREFIX.'(placeholder)',$data);
 ```
 
 #####smdbtrun
 
 ```
-$this->_db->truncate($table);
+$this->db->truncate($table);
 ```
 
 #####smpostdata
