@@ -61,6 +61,10 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Assert CSS](#smassetscss)
 * [Assert JS](#smassetsjs)
 
+#####Csrf (Cross Site Request Forgeries)
+* [Csrf Make Token](#smcsrfmaketoken)
+* [Csrf Is Token Valid](#smcsrfistokenvalid)
+
 #####Url
 * [Url Autolink](#smurlautolink)
 * [Url Template Path](#smurltemppath)
@@ -344,6 +348,18 @@ Assets::css('(placeholder)');
 
 ```
 Assets::js('(placeholder)');
+```
+
+#####smcsrfmaketoken
+
+```
+Csrf::makeToken();
+```
+
+#####smcsrfistokenvalid
+
+```
+Csrf::isTokenValid();
 ```
 
 #####smurlautolink

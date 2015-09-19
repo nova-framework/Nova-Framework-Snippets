@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Csrf::isTokenValid('${1:}');
+]]></content>
+    <tabTrigger>smcsrfistokenvalid</tabTrigger>
+    <scope>source.php</scope>
+    <description>IS Token Valid</description>
+</snippet>

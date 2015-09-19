@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Csrf::makeToken();
+]]></content>
+    <tabTrigger>smcsrfmaketoken</tabTrigger>
+    <scope>source.php</scope>
+    <description>Make Token</description>
+</snippet>
