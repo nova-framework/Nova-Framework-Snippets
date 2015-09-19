@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Url::sagments();
+Url::segments();
 ]]></content>
     <tabTrigger>smurlsegments</tabTrigger>
     <scope>source.php</scope>

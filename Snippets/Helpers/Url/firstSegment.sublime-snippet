@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Url::firstSegment('${1:}');
+Url::firstSegment(${1:});
 ]]></content>
     <tabTrigger>smurlfirstsegment</tabTrigger>
     <scope>source.php</scope>

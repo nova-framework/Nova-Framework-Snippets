@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Data::pr(${1:});
+]]></content>
+    <tabTrigger>smdatapr</tabTrigger>
+    <scope>source.php</scope>
+    <description>print_r</description>
+</snippet>

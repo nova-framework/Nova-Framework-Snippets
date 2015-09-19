@@ -65,6 +65,14 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Csrf Make Token](#smcsrfmaketoken)
 * [Csrf Is Token Valid](#smcsrfistokenvalid)
 
+#####Data
+* [Data print_r](#smdatapr)
+* [Data strlen](#smdatals)
+* [Data strtolower](#smdatastl)
+* [Data stringtoupper](#smdatastu)
+* [Data ucwords](#smdataucw)
+* [Data var_dump](#smdatavd)
+
 #####Url
 * [Url Autolink](#smurlautolink)
 * [Url Template Path](#smurltemppath)
@@ -360,6 +368,51 @@ Csrf::makeToken();
 
 ```
 Csrf::isTokenValid();
+```
+
+
+#####Data
+* [Data print_r](#smdatapr)
+* [Data strlen](#smdatasl)
+* [Data strtolower](#smdatastl)
+* [Data stringtoupper](#smdatastu)
+* [Data ucwords](#smdataucw)
+* [Data var_dump](#smdatavd)
+
+#####smdatapr
+
+```
+Data::pr('(placeholder)');
+```
+
+#####smdatasl
+
+```
+Data::sl('(placeholder)');
+```
+
+#####smdatastl
+
+```
+Data::stl('(placeholder)');
+```
+
+#####smdatastu
+
+```
+Data::stu('(placeholder)');
+```
+
+#####smdataucw
+
+```
+Data::ucw('(placeholder)');
+```
+
+#####smdatavd
+
+```
+Data::vd('(placeholder)');
 ```
 
 #####smurlautolink

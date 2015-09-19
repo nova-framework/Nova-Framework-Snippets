@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Url::getSegment('${1:$segments}, ${1:0}');
+Url::getSegment(${1:$segments}, ${1:0});
 ]]></content>
     <tabTrigger>smurlgetsegment</tabTrigger>
     <scope>source.php</scope>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Csrf::isTokenValid('${1:}');
+Csrf::isTokenValid();
 ]]></content>
     <tabTrigger>smcsrfistokenvalid</tabTrigger>
     <scope>source.php</scope>

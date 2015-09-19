@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Assets::js('${1:}');
+Assets::js(${1:});
 ]]></content>
     <tabTrigger>smassetsjs</tabTrigger>
     <scope>source.php</scope>

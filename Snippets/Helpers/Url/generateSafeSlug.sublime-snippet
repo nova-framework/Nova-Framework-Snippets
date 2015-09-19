@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Url::generateSafeSlug('${1:}');
+Url::generateSafeSlug(${1:});
 ]]></content>
     <tabTrigger>smurlgeneratesafeslug</tabTrigger>
     <scope>source.php</scope>

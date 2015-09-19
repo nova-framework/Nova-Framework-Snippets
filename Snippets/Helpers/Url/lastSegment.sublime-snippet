@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Url::lastSegment('${1:}');
+Url::lastSegment(${1:});
 ]]></content>
     <tabTrigger>smurllastsegment</tabTrigger>
     <scope>source.php</scope>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Data::sl(${1:});
+]]></content>
+    <tabTrigger>smdatasl</tabTrigger>
+    <scope>source.php</scope>
+    <description>strtolower</description>
+</snippet>

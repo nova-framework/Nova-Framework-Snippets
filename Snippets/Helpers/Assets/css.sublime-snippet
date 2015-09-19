@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Assets::css('${1:}');
+Assets::css(${1:});
 ]]></content>
     <tabTrigger>smassetscss</tabTrigger>
     <scope>source.php</scope>
