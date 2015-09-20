@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+$pages->getInstance();
+]]></content>
+    <tabTrigger>smpaggetinstance</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Instance</description>
+</snippet>

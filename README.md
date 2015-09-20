@@ -111,6 +111,15 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Number Format](#smnumberformat)
 * [Number Percentage](#smnumberpercentage)
 
+#####Paginator
+* [Paginator Connect](#smpagconnect)
+* [Paginator Get Instance](#smpaggetinstance)
+* [Paginator Get Limit](#smpaggetlimit)
+* [Paginator Get Per Page](#smpaggetperpage)
+* [Paginator Get Start](#smpaggetstart)
+* [Paginator Page Links](#smpagpagelinks)
+* [Paginator Set Total](#smpagsettotal)
+
 #####Url
 * [Url Autolink](#smautolink)
 * [Url Template Path](#smtemppath)
@@ -593,6 +602,57 @@ $Number::format((placeholder));
 
 ```
 $Number::percentage((placeholder), (placeholder));
+```
+
+#####Paginator
+* [Paginator Connect](#smpagconnect)
+* [Paginator Get Instance](#smpaggetinstance)
+* [Paginator Get Limit](#smpaggetlimit)
+* [Paginator Get Per Page](#smpaggetperpage)
+* [Paginator Get Start](#smpaggetstart)
+* [Paginator Page Links](#smpagpagelinks)
+* [Paginator Set Total](#smpagsettotal)
+
+#####smpagconnect
+
+```
+$pages = new Paginator((placeholder), (placeholder));
+```
+
+#####smpaggetinstance
+
+```
+$pages->getInstance();
+```
+
+#####smpaggetlimit
+
+```
+$pages->getLimit();
+```
+
+#####smpaggetperpage
+
+```
+$pages->getPerPage();
+```
+
+#####smpaggetstart
+
+```
+$pages->getStart();
+```
+
+#####smpagpagelinks
+
+```
+$pages->pageLinks();
+```
+
+#####smpagsettotal
+
+```
+$pages->setTotal((placeholder));
 ```
 
 #####smautolink

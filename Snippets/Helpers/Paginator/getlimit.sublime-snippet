@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+$pages->getLimit();
+]]></content>
+    <tabTrigger>smpaggetlimit</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Limit</description>
+</snippet>

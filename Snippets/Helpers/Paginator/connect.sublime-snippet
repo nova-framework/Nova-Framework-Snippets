@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+$pages = new Paginator(${1:\$perPage}, ${2:\$instance});
+]]></content>
+    <tabTrigger>smpagconnect</tabTrigger>
+    <scope>source.php</scope>
+    <description>Paginator Connect</description>
+</snippet>

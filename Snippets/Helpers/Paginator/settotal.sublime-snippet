@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+$pages->setTotal(${1:\$totalRows});
+]]></content>
+    <tabTrigger>smpagsettotal</tabTrigger>
+    <scope>source.php</scope>
+    <description>Set Total Rows</description>
+</snippet>
