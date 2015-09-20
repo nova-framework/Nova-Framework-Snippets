@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Data::stu(${1:});
+Data::stu(${1:\$data});
 ]]></content>
     <tabTrigger>smstu</tabTrigger>
     <scope>source.php</scope>

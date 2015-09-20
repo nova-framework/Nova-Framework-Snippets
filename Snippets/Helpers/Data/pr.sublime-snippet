@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Data::pr(${1:});
+Data::pr(${1:\$data});
 ]]></content>
     <tabTrigger>smpr</tabTrigger>
     <scope>source.php</scope>

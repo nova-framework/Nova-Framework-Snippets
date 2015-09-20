@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Data::sl(${1:});
+Data::sl(${1:\$data});
 ]]></content>
     <tabTrigger>smsl</tabTrigger>
     <scope>source.php</scope>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Data::vd(${1:});
+Data::vd(${1:\$data});
 ]]></content>
     <tabTrigger>smvd</tabTrigger>
     <scope>source.php</scope>

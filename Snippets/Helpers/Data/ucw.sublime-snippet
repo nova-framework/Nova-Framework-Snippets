@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Data::ucw(${1:});
+Data::ucw(${1:\$data});
 ]]></content>
     <tabTrigger>smucw</tabTrigger>
     <scope>source.php</scope>

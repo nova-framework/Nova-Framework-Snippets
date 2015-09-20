@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Data::stl(${1:});
+Data::stl(${1:\$data});
 ]]></content>
     <tabTrigger>smstl</tabTrigger>
     <scope>source.php</scope>
