@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Document::getBytesSize(${1:\$bytes});
+]]></content>
+    <tabTrigger>smbytessize</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Bytes Size</description>
+</snippet>

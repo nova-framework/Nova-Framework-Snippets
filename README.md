@@ -78,6 +78,14 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 #####Date
 * [DB Select](#smdifferencedate)
 
+#####Document
+* [Document Format Bytes](#smformatbytes)
+* [Document Get Byte Size](#smbytessize)
+* [Document Get Extension](#smextension)
+* [Document Get File Type](#smgetfiletype)
+* [Document Get Folder Size](#smfoldersize)
+* [Document Remove Extension](#smremoveextension)
+
 #####Url
 * [Url Autolink](#smautolink)
 * [Url Template Path](#smtemppath)
@@ -214,7 +222,8 @@ class class_name extends Controller
 #####smcon
 
 ```
-public function __construct(){
+public function __construct()
+{
 	parent::__construct();
 	(placeholder)
 }
@@ -223,7 +232,7 @@ public function __construct(){
 #####smdocblock
 
 ```
-/*
+/**
  * (placeholder) (placeholder)
  *
  * @author (placeholder)
@@ -411,11 +420,72 @@ $this->db->delete(PREFIX.'(placeholder)',$data);
 $this->db->truncate($table);
 ```
 
-#####smddifferencedate
+#####smdifferencedate
 
 ```
 Date::difference('(placeholder)', '(placeholder)');
 ```
+
+#####Document
+* [Document Format Bytes](#smformatbytes)
+* [Document Get Byte Size](#smbytessize)
+* [Document Get Extension](#smextension)
+* [Document Get File Type](#smgetfiletype)
+* [Document Get Folder Size](#smfoldersize)
+* [Document Remove Extension](#smremoveextension)
+
+
+#####smformatbytes
+
+```
+Document::formatBytes('(placeholder)');
+```
+
+#####smbytessize
+
+```
+Document::getBytesSize('(placeholder)');
+```
+
+#####smextension
+
+```
+Document::getExtension('(placeholder)');
+```
+
+#####smgetfiletype
+
+```
+Document::getFileType('(placeholder)');
+```
+
+#####smfoldersize
+
+```
+Document::getFolderSize('(placeholder)');
+```
+
+#####smremoveextension
+
+```
+Document::removeExtension('(placeholder)');
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #####smautolink
 

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Document::getFolderSize(${1:\$path});
+]]></content>
+    <tabTrigger>smfoldersize</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Folder Size</description>
+</snippet>
