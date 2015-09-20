@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Number::percentage(${1:\$val2}, ${2:\$val2});
+]]></content>
+    <tabTrigger>smnumberpercentage</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Percentage</description>
+</snippet>

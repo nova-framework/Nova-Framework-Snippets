@@ -107,6 +107,10 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [FTP Make Directory](#smftpmakedirectory)
 * [FTP Upload File](#smftpuploadfile)
 
+#####Number
+* [Number Format](#smnumberformat)
+* [Number Percentage](#smnumberpercentage)
+
 #####Url
 * [Url Autolink](#smautolink)
 * [Url Template Path](#smtemppath)
@@ -577,6 +581,18 @@ $ftp->makeDirectory((placeholder));
 
 ```
 $ftp->uploadFile((placeholder));
+```
+
+#####smnumberformat
+
+```
+$Number::format((placeholder));
+```
+
+#####smnumberpercentage
+
+```
+$Number::percentage((placeholder), (placeholder));
 ```
 
 #####smautolink
