@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Date::difference(${1:$from}, ${2:$to});
+]]></content>
+    <tabTrigger>smdifferencedate</tabTrigger>
+    <scope>source.php</scope>
+    <description>Date Difference</description>
+</snippet>

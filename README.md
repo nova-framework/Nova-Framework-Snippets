@@ -75,6 +75,9 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [DB Delete](#smdbdelete)
 * [DB Truncate](#smdbtrun)
 
+#####Date
+* [DB Select](#smdifferencedate)
+
 #####Url
 * [Url Autolink](#smautolink)
 * [Url Template Path](#smtemppath)
@@ -375,7 +378,7 @@ Data::vd('(placeholder)');
 #####smdbselect
 
 ```
-$this->db->select("SELECT * FROM ".PREFIX."(placeholder)"(placeholder));
+$this->db->select("SELECT (placeholder) FROM ".PREFIX."(placeholder)"(placeholder));
 ```
 
 #####smdbinsert
@@ -408,10 +411,16 @@ $this->db->delete(PREFIX.'(placeholder)',$data);
 $this->db->truncate($table);
 ```
 
+#####smddifferencedate
+
+```
+Date::difference('(placeholder)', '(placeholder)');
+```
+
 #####smautolink
 
 ```
-Url::autolink('(placeholder)' (placeholder));
+Url::autolink('(placeholder)', '(placeholder)');
 ```
 
 #####smtemppath
