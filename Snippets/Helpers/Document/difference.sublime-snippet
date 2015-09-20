@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Document::getFileType(${1:$extension});
+]]></content>
+    <tabTrigger>smgetfiletype</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get File Type</description>
+</snippet>
