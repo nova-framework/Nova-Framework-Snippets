@@ -134,7 +134,7 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 #####smanyroute
 
 ``` php
-Router::any('(placeholder)', 'Controllers\Welcome@index');
+Router::any((placeholder), 'Controllers\Welcome@index');
 ```
 
 #####smanyrouteany
@@ -159,7 +159,7 @@ Router::any('(placeholder)/(:all)', 'Controllers\Welcome@index');
 #####smgetroute
 
 ``` php
-Router::get('(placeholder)', 'Controllers\Welcome@index');
+Router::get((placeholder), 'Controllers\Welcome@index');
 ```
 
 #####smgetrouteany
@@ -185,7 +185,7 @@ Router::get('(placeholder)/(:all)', 'Controllers\Welcome@index');
 #####smpostroute
 
 ``` php
-Router::post('(placeholder)', 'Controllers\Welcome@index');
+Router::post((placeholder), 'Controllers\Welcome@index');
 ```
 
 #####smpostrouteany
@@ -265,19 +265,19 @@ public function __construct()
 #####smdata
 
 ```
-$data['(placeholder)'] = '(placeholder)';
+$data[(placeholder)] = (placeholder);
 ```
 
 #####smdatatitle
 
 ```
-$data['title'] = '(placeholder)';
+$data['title'] = (placeholder);
 ```
 
 #####smechodata
 
 ```
-$data['(placeholder)'];
+$data[(placeholder)];
 ```
 
 #####smview
@@ -291,19 +291,19 @@ View::renderTemplate('footer', $data);
 #####smloadlang
 
 ```
-$this->language->load('(placeholder)');
+$this->language->load((placeholder));
 ```
 
 #####smgetlang
 
 ```
-$this->language->get('(placeholder)');
+$this->language->get((placeholder));
 ```
 
 #####smsetlang
 
 ```
-$lang['(placeholder)'] = '(placeholder)';
+$lang[(placeholder)] = (placeholder);
 ```
 
 #####smuse
@@ -348,13 +348,13 @@ $data[''][0]->(placeholder);
 #####smcss
 
 ```
-Assets::css('(placeholder)');
+Assets::css((placeholder));
 ```
 
 #####smjs
 
 ```
-Assets::js('(placeholder)');
+Assets::js((placeholder));
 ```
 
 #####smmaketoken
@@ -372,37 +372,37 @@ Csrf::isTokenValid();
 #####smpr
 
 ```
-Data::pr('(placeholder)');
+Data::pr((placeholder));
 ```
 
 #####smsl
 
 ```
-Data::sl('(placeholder)');
+Data::sl((placeholder));
 ```
 
 #####smstl
 
 ```
-Data::stl('(placeholder)');
+Data::stl((placeholder));
 ```
 
 #####smstu
 
 ```
-Data::stu('(placeholder)');
+Data::stu((placeholder));
 ```
 
 #####smucw
 
 ```
-Data::ucw('(placeholder)');
+Data::ucw((placeholder));
 ```
 
 #####smvd
 
 ```
-Data::vd('(placeholder)');
+Data::vd((placeholder));
 ```
 
 #####smdbselect
@@ -414,25 +414,25 @@ $this->db->select("SELECT (placeholder) FROM ".PREFIX."(placeholder)"(placeholde
 #####smdbinsert
 
 ```
-$this->db->insert(PREFIX.'(placeholder)',$data);
+$this->db->insert(PREFIX.(placeholder),$data);
 ```
 
 #####smdblastid
 
 ```
-$this->db->lastInsertId('(placeholder)');
+$this->db->lastInsertId((placeholder));
 ```
 
 #####smdbupdate
 
 ```
-$this->db->update(PREFIX.'(placeholder)',$data, $where);
+$this->db->update(PREFIX.(placeholder),$data, $where);
 ```
 
 #####smdbdelete
 
 ```
-$this->db->delete(PREFIX.'(placeholder)',$data);
+$this->db->delete(PREFIX.(placeholder),$data);
 ```
 
 #####smdbtrun
@@ -444,55 +444,55 @@ $this->db->truncate($table);
 #####smdifferencedate
 
 ```
-Date::difference('(placeholder)', '(placeholder)');
+Date::difference((placeholder), (placeholder));
 ```
 
 #####smformatbytes
 
 ```
-Document::formatBytes('(placeholder)');
+Document::formatBytes((placeholder));
 ```
 
 #####smbytessize
 
 ```
-Document::getBytesSize('(placeholder)');
+Document::getBytesSize((placeholder));
 ```
 
 #####smextension
 
 ```
-Document::getExtension('(placeholder)');
+Document::getExtension((placeholder));
 ```
 
 #####smgetfiletype
 
 ```
-Document::getFileType('(placeholder)');
+Document::getFileType((placeholder));
 ```
 
 #####smfoldersize
 
 ```
-Document::getFolderSize('(placeholder)');
+Document::getFolderSize((placeholder));
 ```
 
 #####smremoveextension
 
 ```
-Document::removeExtension('(placeholder)');
+Document::removeExtension((placeholder));
 ```
 
 #####smformbutton
 
 ```
-Form::button(array('name' => '(placeholder)', 'value' => '(placeholder)', 'class' => '(placeholder)'));
+Form::button(array('name' => (placeholder), 'value' => (placeholder), 'class' => (placeholder)));
 ```
 
 #####smformcheckbox
 
 ```
-Form::checkbox(array('name' => '(placeholder)'));
+Form::checkbox(array('name' => (placeholder)));
 ```
 
 #####smformclose
@@ -504,13 +504,13 @@ Form::close();
 #####smformhidden
 
 ```
-Form::hidden(array('name' => '(placeholder)', 'value' => '(placeholder)'));
+Form::hidden(array('name' => (placeholder), 'value' => (placeholder)));
 ```
 
 #####smforminput
 
 ```
-Form::hidden(array('name' => '(placeholder)', 'value' => '(placeholder)', 'class' => '(placeholder)'));
+Form::hidden(array('name' => (placeholder), 'value' => (placeholder), 'class' => (placeholder)));
 ```
 
 #####smformopen
@@ -522,19 +522,19 @@ Form::open(array('method' => 'post' (placeholder)));
 #####smformradio
 
 ```
-Form::radio(array('name' => '(placeholder)'));
+Form::radio(array('name' => (placeholder)));
 ```
 
 #####smformselect
 
 ```
-Form::select(array('name' => '(placeholder)'));
+Form::select(array('name' => (placeholder)));
 ```
 
 #####smformtextbox
 
 ```
-Form::textarea(array('name' => '(placeholder)', 'value' => '(placeholder)', 'class' => '(placeholder)'));
+Form::textarea(array('name' => (placeholder), 'value' => (placeholder), 'class' => (placeholder)));
 ```
 
 #####smftpclose
@@ -546,43 +546,43 @@ $ftp->close();
 #####smftpconnect
 
 ```
-$ftp = new Ftp('(placeholder)', '(placeholder)', '(placeholder)', '(placeholder)');
+$ftp = new Ftp((placeholder), (placeholder), (placeholder), (placeholder));
 ```
 
 #####smftpdeletedirectory
 
 ```
-$ftp->deleteDirectory('(placeholder)');
+$ftp->deleteDirectory((placeholder));
 ```
 
 #####smdeletefile
 
 ```
-$ftp->deleteFile('(placeholder)');
+$ftp->deleteFile((placeholder));
 ```
 
 #####smftpfolderpermission
 
 ```
-$ftp->folderPermission('(placeholder)','(placeholder)');
+$ftp->folderPermission((placeholder),(placeholder));
 ```
 
 #####smftpmakedirectory
 
 ```
-$ftp->makeDirectory('(placeholder)');
+$ftp->makeDirectory((placeholder));
 ```
 
 #####smftpuploadfile
 
 ```
-$ftp->uploadFile('(placeholder)');
+$ftp->uploadFile((placeholder));
 ```
 
 #####smautolink
 
 ```
-Url::autolink('(placeholder)', '(placeholder)');
+Url::autolink((placeholder), (placeholder));
 ```
 
 #####smtemppath
@@ -600,13 +600,13 @@ Url::previous();
 #####smredirect
 
 ```
-Url::redirect('(placeholder)');
+Url::redirect((placeholder));
 ```
 
 #####smgeneratesafeslug
 
 ```
-Url::generateSafeSlug('(placeholder)');
+Url::generateSafeSlug((placeholder));
 ```
 
 #####smsegments
@@ -618,37 +618,37 @@ Url::segments();
 #####smgetsegment
 
 ```
-Url::getSegment('(placeholder)', '(placeholder)');
+Url::getSegment((placeholder), (placeholder));
 ```
 
 #####smfirstsegment
 
 ```
-Url::firstSegment('(placeholder)');
+Url::firstSegment((placeholder));
 ```
 
 #####smlastsegment
 
 ```
-Url::lastSegment('(placeholder)');
+Url::lastSegment((placeholder));
 ```
 
 #####smsetses
 
 ```
-Session::set('(placeholder)','(placeholder)');
+Session::set((placeholder),(placeholder));
 ```
 
 #####smpullses
 
 ```
-Session::pull('(placeholder)');
+Session::pull((placeholder));
 ```
 
 #####smgetses
 
 ```
-Session::get('(placeholder)');
+Session::get((placeholder));
 ```
 
 #####smidses
@@ -666,5 +666,5 @@ Session::display();
 #####smdestroyses
 
 ```
-Session::destroy('(placeholder)');
+Session::destroy((placeholder));
 ```
