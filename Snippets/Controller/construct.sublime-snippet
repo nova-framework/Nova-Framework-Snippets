@@ -6,7 +6,7 @@ public function __construct()
     ${1:}
 }
 ]]></content>
-    <tabTrigger>smcon</tabTrigger>
+    <tabTrigger>smcons</tabTrigger>
     <scope>source.php</scope>
     <description>Run construct</description>
 </snippet>

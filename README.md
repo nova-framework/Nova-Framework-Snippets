@@ -45,12 +45,6 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Use](#smuse)
 * [Alias](#smalias)
 * [Function](#smfun)
-* [DB Select](#smdbselect)
-* [DB Insert](#smdbinsert)
-* [DB Last ID](#smdblastid)
-* [DB Update](#smdbupdate)
-* [DB Delete](#smdbdelete)
-* [DB Truncate](#smdbtrun)
 * [Post Data](#smpostdata)
 * [this](#smthis)
 * [Data Row](#smdatarow)
@@ -72,6 +66,14 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Data stringtoupper](#smstu)
 * [Data ucwords](#smucw)
 * [Data var_dump](#smvd)
+
+#####Database
+* [DB Select](#smdbselect)
+* [DB Insert](#smdbinsert)
+* [DB Last ID](#smdblastid)
+* [DB Update](#smdbupdate)
+* [DB Delete](#smdbdelete)
+* [DB Truncate](#smdbtrun)
 
 #####Url
 * [Url Autolink](#smautolink)
@@ -291,42 +293,6 @@ public function (placeholder)((placeholder)){
 }
 ```
 
-#####smdbselect
-
-```
-$this->db->select("SELECT * FROM ".PREFIX."(placeholder)"(placeholder));
-```
-
-#####smdbinsert
-
-```
-$this->db->insert(PREFIX.'(placeholder)',$data);
-```
-
-#####smdblastid
-
-```
-$this->db->lastInsertId('(placeholder)');
-```
-
-#####smdbupdate
-
-```
-$this->db->update(PREFIX.'(placeholder)',$data, $where);
-```
-
-#####smdbdelete
-
-```
-$this->db->delete(PREFIX.'(placeholder)',$data);
-```
-
-#####smdbtrun
-
-```
-$this->db->truncate($table);
-```
-
 #####smpostdata
 
 ```
@@ -404,6 +370,42 @@ Data::ucw('(placeholder)');
 
 ```
 Data::vd('(placeholder)');
+```
+
+#####smdbselect
+
+```
+$this->db->select("SELECT * FROM ".PREFIX."(placeholder)"(placeholder));
+```
+
+#####smdbinsert
+
+```
+$this->db->insert(PREFIX.'(placeholder)',$data);
+```
+
+#####smdblastid
+
+```
+$this->db->lastInsertId('(placeholder)');
+```
+
+#####smdbupdate
+
+```
+$this->db->update(PREFIX.'(placeholder)',$data, $where);
+```
+
+#####smdbdelete
+
+```
+$this->db->delete(PREFIX.'(placeholder)',$data);
+```
+
+#####smdbtrun
+
+```
+$this->db->truncate($table);
 ```
 
 #####smautolink
