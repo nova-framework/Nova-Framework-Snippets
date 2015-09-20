@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Form::checkbox(array('name' => '${1:}'));
+]]></content>
+    <tabTrigger>smformcheckbox</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create checkbox</description>
+</snippet>

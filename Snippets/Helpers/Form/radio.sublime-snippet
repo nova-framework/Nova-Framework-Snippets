@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Form::radio(array('name' => '${1:}'));
+]]></content>
+    <tabTrigger>smformradio</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create radio</description>
+</snippet>

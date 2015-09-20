@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Form::select(array('name' => '${1:}'));
+]]></content>
+    <tabTrigger>smformselect</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create select</description>
+</snippet>

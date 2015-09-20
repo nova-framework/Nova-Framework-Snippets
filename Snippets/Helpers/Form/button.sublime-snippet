@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Form::button(array('name' => '${1:}', 'value' => '${2:}', 'class' => '${3:}'));
+]]></content>
+    <tabTrigger>smformbutton</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create button</description>
+</snippet>

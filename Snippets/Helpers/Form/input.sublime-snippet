@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Form::input(array('name' => '${1:}', 'value' => '${2:}', 'class' => '${3:}'));
+]]></content>
+    <tabTrigger>smforminput</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create input</description>
+</snippet>

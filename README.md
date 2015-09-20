@@ -86,6 +86,18 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Document Get Folder Size](#smfoldersize)
 * [Document Remove Extension](#smremoveextension)
 
+#####Form
+* [Form Button](#smformbutton)
+* [Form Checkbox](#smformcheckbox)
+* [Form Close](#smformclose)
+* [Form Hidden](#smformhidden)
+* [Form Input](#smforminput)
+* [Form Open](#smformopen)
+* [Form Radio](#smformradio)
+* [Form Select](#smformselect)
+* [Form Submit](#smformsubmit)
+* [Form Textbox](#smformtextbox)
+
 #####Url
 * [Url Autolink](#smautolink)
 * [Url Template Path](#smtemppath)
@@ -426,15 +438,6 @@ $this->db->truncate($table);
 Date::difference('(placeholder)', '(placeholder)');
 ```
 
-#####Document
-* [Document Format Bytes](#smformatbytes)
-* [Document Get Byte Size](#smbytessize)
-* [Document Get Extension](#smextension)
-* [Document Get File Type](#smgetfiletype)
-* [Document Get Folder Size](#smfoldersize)
-* [Document Remove Extension](#smremoveextension)
-
-
 #####smformatbytes
 
 ```
@@ -471,21 +474,71 @@ Document::getFolderSize('(placeholder)');
 Document::removeExtension('(placeholder)');
 ```
 
+#####Form
+* [Form Button](#smformbutton)
+* [Form Checkbox](#smformcheckbox)
+* [Form Close](#smformclose)
+* [Form Hidden](#smformhidden)
+* [Form Input](#smforminput)
+* [Form Open](#smformopen)
+* [Form Radio](#smformradio)
+* [Form Select](#smformselect)
+* [Form Submit](#smformsubmit)
+* [Form Textbox](#smformtextbox)
 
+#####smformbutton
 
+```
+Form::button(array('name' => '(placeholder)', 'value' => '(placeholder)', 'class' => '(placeholder)'));
+```
 
+#####smformcheckbox
 
+```
+Form::checkbox(array('name' => '(placeholder)'));
+```
 
+#####smformclose
 
+```
+Form::close();
+```
 
+#####smformhidden
 
+```
+Form::hidden(array('name' => '(placeholder)', 'value' => '(placeholder)'));
+```
 
+#####smforminput
 
+```
+Form::hidden(array('name' => '(placeholder)', 'value' => '(placeholder)', 'class' => '(placeholder)'));
+```
 
+#####smformopen
 
+```
+Form::open(array('method' => 'post' (placeholder)));
+```
 
+#####smformradio
 
+```
+Form::radio(array('name' => '(placeholder)'));
+```
 
+#####smformselect
+
+```
+Form::select(array('name' => '(placeholder)'));
+```
+
+#####smformtextbox
+
+```
+Form::textarea(array('name' => '(placeholder)', 'value' => '(placeholder)', 'class' => '(placeholder)'));
+```
 
 #####smautolink
 
