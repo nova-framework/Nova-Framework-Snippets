@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+$ftp->folderPermission(${1:\$folderChmod},${2:\$permission});
+]]></content>
+    <tabTrigger>smftpfolderpermission</tabTrigger>
+    <scope>source.php</scope>
+    <description>FTP Folder Permission</description>
+</snippet>

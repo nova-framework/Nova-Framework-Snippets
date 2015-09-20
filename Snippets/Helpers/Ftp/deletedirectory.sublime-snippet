@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+$ftp->deleteDirectory(${1:\$dirToDelete});
+]]></content>
+    <tabTrigger>smftpdeletedirectory</tabTrigger>
+    <scope>source.php</scope>
+    <description>FTP Delete Directory</description>
+</snippet>

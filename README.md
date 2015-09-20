@@ -98,6 +98,15 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Form Submit](#smformsubmit)
 * [Form Textbox](#smformtextbox)
 
+#####FTP
+* [FTP Close](#smftpclose)
+* [FTP Connect](#smftpconnect)
+* [FTP Delete Directory](#smftpdeletedirectory)
+* [FTP Delete File](#smdeletefile)
+* [FTP Folder Permission](#smftpfolderpermission)
+* [FTP Make Directory](#smftpmakedirectory)
+* [FTP Upload File](#smftpuploadfile)
+
 #####Url
 * [Url Autolink](#smautolink)
 * [Url Template Path](#smtemppath)
@@ -474,18 +483,6 @@ Document::getFolderSize('(placeholder)');
 Document::removeExtension('(placeholder)');
 ```
 
-#####Form
-* [Form Button](#smformbutton)
-* [Form Checkbox](#smformcheckbox)
-* [Form Close](#smformclose)
-* [Form Hidden](#smformhidden)
-* [Form Input](#smforminput)
-* [Form Open](#smformopen)
-* [Form Radio](#smformradio)
-* [Form Select](#smformselect)
-* [Form Submit](#smformsubmit)
-* [Form Textbox](#smformtextbox)
-
 #####smformbutton
 
 ```
@@ -538,6 +535,48 @@ Form::select(array('name' => '(placeholder)'));
 
 ```
 Form::textarea(array('name' => '(placeholder)', 'value' => '(placeholder)', 'class' => '(placeholder)'));
+```
+
+#####smftpclose
+
+```
+$ftp->close();
+```
+
+#####smftpconnect
+
+```
+$ftp = new Ftp('(placeholder)', '(placeholder)', '(placeholder)', '(placeholder)');
+```
+
+#####smftpdeletedirectory
+
+```
+$ftp->deleteDirectory('(placeholder)');
+```
+
+#####smdeletefile
+
+```
+$ftp->deleteFile('(placeholder)');
+```
+
+#####smftpfolderpermission
+
+```
+$ftp->folderPermission('(placeholder)','(placeholder)');
+```
+
+#####smftpmakedirectory
+
+```
+$ftp->makeDirectory('(placeholder)');
+```
+
+#####smftpuploadfile
+
+```
+$ftp->uploadFile('(placeholder)');
 ```
 
 #####smautolink

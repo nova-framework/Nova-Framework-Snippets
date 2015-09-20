@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+$ftp->uploadFile(${1:\$remoteFile},${2:\$localFile});
+]]></content>
+    <tabTrigger>smftpuploadfile</tabTrigger>
+    <scope>source.php</scope>
+    <description>FTP Upload File</description>
+</snippet>
