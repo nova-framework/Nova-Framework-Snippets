@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Request::post(${1:\$key});
+]]></content>
+    <tabTrigger>smrequestpost</tabTrigger>
+    <scope>source.php</scope>
+    <description>Request Post</description>
+</snippet>

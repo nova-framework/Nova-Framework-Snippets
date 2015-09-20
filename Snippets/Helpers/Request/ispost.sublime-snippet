@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Request::ispost();
+]]></content>
+    <tabTrigger>smrequestispost</tabTrigger>
+    <scope>source.php</scope>
+    <description>Request is Post</description>
+</snippet>

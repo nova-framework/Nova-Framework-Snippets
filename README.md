@@ -126,6 +126,14 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Password Needs Rehash](#smpasswordneedsrehash)
 * [Password Verify](#smpasswordverify)
 
+#####Request
+* [Request Files](#smrequestfiles)
+* [Request Is Ajax](#smrequestisajax)
+* [Request Is Get](#smrequestisget)
+* [Request Is Post](#smrequestispost)
+* [Request Post](#smrequestpost)
+* [Request Query](#smrequestquery)
+
 #####Url
 * [Url Autolink](#smautolink)
 * [Url Template Path](#smtemppath)
@@ -674,6 +682,42 @@ Password::needsRehash((placeholder));
 
 ```
 Password::verify((placeholder), (placeholder));
+```
+
+#####smrequestfiles
+
+```
+Request::files((placeholder), (placeholder));
+```
+
+#####smrequestisajax
+
+```
+Request::isAjax();
+```
+
+#####smrequestisget
+
+```
+Request::isGet();
+```
+
+#####smrequestispost
+
+```
+Request::isPost();
+```
+
+#####smrequestpost
+
+```
+Request::post((placeholder));
+```
+
+#####smrequestquery
+
+```
+Request::query((placeholder));
 ```
 
 #####smautolink

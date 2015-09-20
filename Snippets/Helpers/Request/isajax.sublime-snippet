@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Request::isAjax();
+]]></content>
+    <tabTrigger>smrequestisajax</tabTrigger>
+    <scope>source.php</scope>
+    <description>Request is Ajax</description>
+</snippet>

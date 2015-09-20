@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Request::files(${1:\$key});
+]]></content>
+    <tabTrigger>smrequestfiles</tabTrigger>
+    <scope>source.php</scope>
+    <description>Request Files</description>
+</snippet>
