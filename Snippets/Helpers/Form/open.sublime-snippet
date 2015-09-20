@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Form::open(${1:\$params = array('method' => 'post')});
+]]></content>
+    <tabTrigger>smformopen</tabTrigger>
+    <scope>source.php</scope>
+    <description>Open Form</description>
+</snippet>

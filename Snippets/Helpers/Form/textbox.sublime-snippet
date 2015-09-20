@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Form::textBox(\$params = array('name' => '${1:}'));
+]]></content>
+    <tabTrigger>smformtextbox</tabTrigger>
+    <scope>source.php</scope>
+    <description>Create textarea</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Form::close();
+]]></content>
+    <tabTrigger>smformclose</tabTrigger>
+    <scope>source.php</scope>
+    <description>Close Form</description>
+</snippet>
