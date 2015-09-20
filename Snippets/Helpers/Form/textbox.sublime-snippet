@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-Form::textBox(\$params = array('name' => '${1:}'));
+Form::textBox(array('name' => '${1:}'));
 ]]></content>
     <tabTrigger>smformtextbox</tabTrigger>
     <scope>source.php</scope>
