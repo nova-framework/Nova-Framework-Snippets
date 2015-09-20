@@ -2,7 +2,7 @@
     <content><![CDATA[
 Assets::js(${1:});
 ]]></content>
-    <tabTrigger>smassetsjs</tabTrigger>
+    <tabTrigger>smjs</tabTrigger>
     <scope>source.php</scope>
     <description>Assets JS</description>
 </snippet>

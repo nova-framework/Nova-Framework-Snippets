@@ -2,7 +2,7 @@
     <content><![CDATA[
 Data::ucw(${1:});
 ]]></content>
-    <tabTrigger>smdataucw</tabTrigger>
+    <tabTrigger>smucw</tabTrigger>
     <scope>source.php</scope>
     <description>ucwords</description>
 </snippet>

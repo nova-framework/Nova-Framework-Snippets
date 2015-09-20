@@ -2,7 +2,7 @@
     <content><![CDATA[
 Data::stu(${1:});
 ]]></content>
-    <tabTrigger>smdatastu</tabTrigger>
+    <tabTrigger>smstu</tabTrigger>
     <scope>source.php</scope>
     <description>strtoupper</description>
 </snippet>

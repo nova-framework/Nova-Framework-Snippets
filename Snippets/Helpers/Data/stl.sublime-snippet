@@ -2,7 +2,7 @@
     <content><![CDATA[
 Data::stl(${1:});
 ]]></content>
-    <tabTrigger>smdatastl</tabTrigger>
+    <tabTrigger>smstl</tabTrigger>
     <scope>source.php</scope>
     <description>strtolower</description>
 </snippet>

@@ -2,7 +2,7 @@
     <content><![CDATA[
 Url::lastSegment(${1:});
 ]]></content>
-    <tabTrigger>smurllastsegment</tabTrigger>
+    <tabTrigger>smlastsegment</tabTrigger>
     <scope>source.php</scope>
     <description>Get last segment</description>
 </snippet>

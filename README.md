@@ -58,39 +58,39 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 ####Helpers
 
 #####Assets
-* [Assert CSS](#smassetscss)
-* [Assert JS](#smassetsjs)
+* [Assert CSS](#smcss)
+* [Assert JS](#smjs)
 
 #####Csrf (Cross Site Request Forgeries)
-* [Csrf Make Token](#smcsrfmaketoken)
-* [Csrf Is Token Valid](#smcsrfistokenvalid)
+* [Csrf Make Token](#maketoken)
+* [Csrf Is Token Valid](#istokenvalid)
 
 #####Data
-* [Data print_r](#smdatapr)
-* [Data strlen](#smdatals)
-* [Data strtolower](#smdatastl)
-* [Data stringtoupper](#smdatastu)
-* [Data ucwords](#smdataucw)
-* [Data var_dump](#smdatavd)
+* [Data print_r](#smpr)
+* [Data strlen](#smls)
+* [Data strtolower](#smstl)
+* [Data stringtoupper](#smstu)
+* [Data ucwords](#smucw)
+* [Data var_dump](#smvd)
 
 #####Url
-* [Url Autolink](#smurlautolink)
-* [Url Template Path](#smurltemppath)
-* [Url Previous](#smurlprev)
-* [Url Redirect](#smurlredirect)
-* [Url Generate Safe Slug](#smurlgeneratesafeslug)
-* [Url Segments](#smurlsegments)
-* [Url Get Segment](#smurlgetsegment)
-* [Url First Segment](#smurlfirstsegment)
-* [Url Last Segment](#smurllastsegment)
+* [Url Autolink](#smautolink)
+* [Url Template Path](#smtemppath)
+* [Url Previous](#smprev)
+* [Url Redirect](#smredirect)
+* [Url Generate Safe Slug](#smgeneratesafeslug)
+* [Url Segments](#smsegments)
+* [Url Get Segment](#smgetsegment)
+* [Url First Segment](#smfirstsegment)
+* [Url Last Segment](#smlastsegment)
 
 #####Session
-* [Session Set](#smsesset)
-* [Session Pull](#smsespull)
-* [Session Get](#smsesget)
-* [Session id](#smsesid)
-* [Session Display](#smsesdisplay)
-* [Session Destroy](#smsesdestroy)
+* [Session Set](#smsetses)
+* [Session Pull](#smpullses)
+* [Session Get](#smgetses)
+* [Session id](#smidses)
+* [Session Display](#smdisplayses)
+* [Session Destroy](#smdestroyses)
 
 
 ### Router
@@ -346,160 +346,151 @@ $data[''][0]->(placeholder);
 ```
 
 
-#####smassetscss
+#####smcss
 
 ```
 Assets::css('(placeholder)');
 ```
 
-#####smassetsjs
+#####smjs
 
 ```
 Assets::js('(placeholder)');
 ```
 
-#####smcsrfmaketoken
+#####smmaketoken
 
 ```
 Csrf::makeToken();
 ```
 
-#####smcsrfistokenvalid
+#####smistokenvalid
 
 ```
 Csrf::isTokenValid();
 ```
 
-
-#####Data
-* [Data print_r](#smdatapr)
-* [Data strlen](#smdatasl)
-* [Data strtolower](#smdatastl)
-* [Data stringtoupper](#smdatastu)
-* [Data ucwords](#smdataucw)
-* [Data var_dump](#smdatavd)
-
-#####smdatapr
+#####smpr
 
 ```
 Data::pr('(placeholder)');
 ```
 
-#####smdatasl
+#####smsl
 
 ```
 Data::sl('(placeholder)');
 ```
 
-#####smdatastl
+#####smstl
 
 ```
 Data::stl('(placeholder)');
 ```
 
-#####smdatastu
+#####smstu
 
 ```
 Data::stu('(placeholder)');
 ```
 
-#####smdataucw
+#####smucw
 
 ```
 Data::ucw('(placeholder)');
 ```
 
-#####smdatavd
+#####smvd
 
 ```
 Data::vd('(placeholder)');
 ```
 
-#####smurlautolink
+#####smautolink
 
 ```
 Url::autolink('(placeholder)' (placeholder));
 ```
 
-#####smurltemppath
+#####smtemppath
 
 ```
 Url::templatePath();
 ```
 
-#####smurlprev
+#####smprev
 
 ```
 Url::previous();
 ```
 
-#####smurlredirect
+#####smredirect
 
 ```
 Url::redirect('(placeholder)');
 ```
 
-#####smurlgeneratesafeslug
+#####smgeneratesafeslug
 
 ```
 Url::generateSafeSlug('(placeholder)');
 ```
 
-#####smurlsegments
+#####smsegments
 
 ```
 Url::segments();
 ```
 
-#####smurlgetsegment
+#####smgetsegment
 
 ```
 Url::getSegment('(placeholder)', '(placeholder)');
 ```
 
-#####smurlfirstsegment
+#####smfirstsegment
 
 ```
 Url::firstSegment('(placeholder)');
 ```
 
-#####smurllastsegment
+#####smlastsegment
 
 ```
 Url::lastSegment('(placeholder)');
 ```
 
-#####smsesset
+#####smsetses
 
 ```
 Session::set('(placeholder)','(placeholder)');
 ```
 
-#####smsespull
+#####smpullses
 
 ```
 Session::pull('(placeholder)');
 ```
 
-#####smsesget
+#####smgetses
 
 ```
 Session::get('(placeholder)');
 ```
 
-#####smsesid
+#####smidses
 
 ```
 Session::id();
 ```
 
-#####smsesdisplay
+#####smdisplayses
 
 ```
 Session::display();
 ```
 
-#####smsesdestroy
+#####smdestroyses
 
 ```
 Session::destroy('(placeholder)');

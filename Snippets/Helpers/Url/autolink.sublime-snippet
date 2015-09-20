@@ -2,7 +2,7 @@
     <content><![CDATA[
 Url::autolink(${1:}, ${2:});
 ]]></content>
-    <tabTrigger>smurlautolink</tabTrigger>
+    <tabTrigger>smautolink</tabTrigger>
     <scope>source.php</scope>
     <description>Auto Link</description>
 </snippet>

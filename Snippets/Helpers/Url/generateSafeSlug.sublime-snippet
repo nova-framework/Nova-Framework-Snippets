@@ -2,7 +2,7 @@
     <content><![CDATA[
 Url::generateSafeSlug(${1:});
 ]]></content>
-    <tabTrigger>smurlgeneratesafeslug</tabTrigger>
+    <tabTrigger>smgeneratesafeslug</tabTrigger>
     <scope>source.php</scope>
     <description>Create Slug</description>
 </snippet>

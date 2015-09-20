@@ -2,7 +2,7 @@
     <content><![CDATA[
 Session::id();
 ]]></content>
-    <tabTrigger>smsesid</tabTrigger>
+    <tabTrigger>smidses</tabTrigger>
     <scope>source.php</scope>
     <description>Get Session ID</description>
 </snippet>

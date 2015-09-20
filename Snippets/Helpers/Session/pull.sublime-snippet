@@ -2,7 +2,7 @@
     <content><![CDATA[
 Session::pull('${1:}');
 ]]></content>
-    <tabTrigger>smsespull</tabTrigger>
+    <tabTrigger>smpullses</tabTrigger>
     <scope>source.php</scope>
     <description>Pull Session Key</description>
 </snippet>

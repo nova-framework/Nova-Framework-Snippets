@@ -2,7 +2,7 @@
     <content><![CDATA[
 Url::redirect(${1:});
 ]]></content>
-    <tabTrigger>smurlredirect</tabTrigger>
+    <tabTrigger>smredirect</tabTrigger>
     <scope>source.php</scope>
     <description>Redirect To</description>
 </snippet>

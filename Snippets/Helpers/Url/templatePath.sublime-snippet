@@ -2,7 +2,7 @@
     <content><![CDATA[
 Url::templatePath();
 ]]></content>
-    <tabTrigger>smurltemppath</tabTrigger>
+    <tabTrigger>smtemppath</tabTrigger>
     <scope>source.php</scope>
     <description>Template Path</description>
 </snippet>

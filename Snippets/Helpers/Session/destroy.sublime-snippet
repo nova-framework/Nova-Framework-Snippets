@@ -2,7 +2,7 @@
     <content><![CDATA[
 Session::destroy('${1:}');
 ]]></content>
-    <tabTrigger>smsesdestroy</tabTrigger>
+    <tabTrigger>smdestroy</tabTrigger>
     <scope>source.php</scope>
     <description>Destroy Session Key</description>
 </snippet>

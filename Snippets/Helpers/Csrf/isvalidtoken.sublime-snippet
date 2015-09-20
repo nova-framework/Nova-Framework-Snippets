@@ -2,7 +2,7 @@
     <content><![CDATA[
 Csrf::isTokenValid();
 ]]></content>
-    <tabTrigger>smcsrfistokenvalid</tabTrigger>
+    <tabTrigger>smistokenvalid</tabTrigger>
     <scope>source.php</scope>
     <description>IS Token Valid</description>
 </snippet>

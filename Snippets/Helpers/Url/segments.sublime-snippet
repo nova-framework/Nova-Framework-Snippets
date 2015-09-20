@@ -2,7 +2,7 @@
     <content><![CDATA[
 Url::segments();
 ]]></content>
-    <tabTrigger>smurlsegments</tabTrigger>
+    <tabTrigger>smsegments</tabTrigger>
     <scope>source.php</scope>
     <description>Create url segments</description>
 </snippet>

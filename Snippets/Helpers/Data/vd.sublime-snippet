@@ -2,7 +2,7 @@
     <content><![CDATA[
 Data::vd(${1:});
 ]]></content>
-    <tabTrigger>smdatavd</tabTrigger>
+    <tabTrigger>smvd</tabTrigger>
     <scope>source.php</scope>
     <description>var dump</description>
 </snippet>

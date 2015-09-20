@@ -2,7 +2,7 @@
     <content><![CDATA[
 Url::firstSegment(${1:});
 ]]></content>
-    <tabTrigger>smurlfirstsegment</tabTrigger>
+    <tabTrigger>smfirstsegment</tabTrigger>
     <scope>source.php</scope>
     <description>Get first segment</description>
 </snippet>
