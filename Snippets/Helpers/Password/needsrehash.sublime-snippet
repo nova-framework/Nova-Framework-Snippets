@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Password::needsRehash(${1:\$hash});
+]]></content>
+    <tabTrigger>smpassneedsrehash</tabTrigger>
+    <scope>source.php</scope>
+    <description>Needs Rehash</description>
+</snippet>

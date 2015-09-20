@@ -120,6 +120,12 @@ All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 * [Paginator Page Links](#smpagpagelinks)
 * [Paginator Set Total](#smpagsettotal)
 
+#####Password
+* [Password Get Infos](#smpasswordgetinfos)
+* [Password Make](#smpasswordmake)
+* [Password Needs Rehash](#smpasswordneedsrehash)
+* [Password Verify](#smpasswordverify)
+
 #####Url
 * [Url Autolink](#smautolink)
 * [Url Template Path](#smtemppath)
@@ -604,15 +610,6 @@ $Number::format((placeholder));
 $Number::percentage((placeholder), (placeholder));
 ```
 
-#####Paginator
-* [Paginator Connect](#smpagconnect)
-* [Paginator Get Instance](#smpaggetinstance)
-* [Paginator Get Limit](#smpaggetlimit)
-* [Paginator Get Per Page](#smpaggetperpage)
-* [Paginator Get Start](#smpaggetstart)
-* [Paginator Page Links](#smpagpagelinks)
-* [Paginator Set Total](#smpagsettotal)
-
 #####smpagconnect
 
 ```
@@ -653,6 +650,30 @@ $pages->pageLinks();
 
 ```
 $pages->setTotal((placeholder));
+```
+
+#####smpasswordgetinfos
+
+```
+Password::getInfos((placeholder));
+```
+
+#####smpasswordmake
+
+```
+Password::make((placeholder));
+```
+
+#####smpasswordneedsrehash
+
+```
+Password::needsRehash((placeholder));
+```
+
+#####smpasswordverify
+
+```
+Password::verify((placeholder), (placeholder));
 ```
 
 #####smautolink

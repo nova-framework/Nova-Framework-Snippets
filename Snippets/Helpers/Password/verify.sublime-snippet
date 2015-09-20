@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Password::verify(${1:\$password}, ${1:\$hash});
+]]></content>
+    <tabTrigger>smpasswordverify</tabTrigger>
+    <scope>source.php</scope>
+    <description>Verify Password</description>
+</snippet>

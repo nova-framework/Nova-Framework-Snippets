@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+Password::getInfos(${1:\$hash});
+]]></content>
+    <tabTrigger>smpasswordgetinfos</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Info</description>
+</snippet>
