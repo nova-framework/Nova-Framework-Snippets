@@ -537,7 +537,7 @@ Form::hidden(array('name' => (placeholder), 'value' => (placeholder)));
 #####smforminput
 
 ```
-Form::hidden(array('name' => (placeholder), 'value' => (placeholder), 'class' => (placeholder)));
+Form::input(array('name' => (placeholder), 'value' => (placeholder), 'class' => (placeholder)));
 ```
 
 #####smformopen
