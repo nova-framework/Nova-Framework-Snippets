@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+        Router::get('${1:}', function(${2:}){
+            ${2:}
+        });
+    ]]></content>
+    <tabTrigger>smgetclosure</tabTrigger>
+    <scope>source.php</scope>
+    <description>Get Closure</description>
+</snippet>

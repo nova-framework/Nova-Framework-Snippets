@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+        Router::post('${1:}', function(${2:}){
+            ${2:}
+        });
+    ]]></content>
+    <tabTrigger>smpostclosure</tabTrigger>
+    <scope>source.php</scope>
+    <description>Post Closure</description>
+</snippet>
