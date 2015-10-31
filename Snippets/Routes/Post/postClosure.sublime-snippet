@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-        Router::post('${1:}', function(${2:}){
-            ${2:}
-        });
+Router::post('${1:}', function(${2:}){
+    ${3:}
+});
     ]]></content>
     <tabTrigger>smpostclosure</tabTrigger>
     <scope>source.php</scope>

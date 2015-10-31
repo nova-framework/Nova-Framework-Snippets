@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-        Router::any('${1:}', function(${2:}){
-            ${2:}
-        });
+Router::any('${1:}', function(${2:}){
+    ${3:}
+});
     ]]></content>
     <tabTrigger>smanyclosure</tabTrigger>
     <scope>source.php</scope>
