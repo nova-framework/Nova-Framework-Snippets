@@ -1,7 +1,7 @@
 SMVC Framework Snippets
 =============
 
-![Simple MVC Framework](http://simplemvcframework.com/app/templates/smvc/img/logo.png)
+![Simple MVC Framework](http://simplemvcframework.com/app/templates/publicthemes/smvc/images/logo.png)
 
 This is a Sublime Text package which includes a collection of Snippets for [Simple MVC Framework.](http://simplemvcframework.com)
 
