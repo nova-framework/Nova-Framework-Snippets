@@ -1,15 +1,15 @@
-SMVC Framework Snippets
+Nova Framework Snippets
 =============
 
-![Simple MVC Framework](http://simplemvcframework.com/app/templates/publicthemes/smvc/images/logo.png)
+![Nova Framework](https://novaframework.com/themes/nova/assets/images/nova.png)
 
-This is a Sublime Text package which includes a collection of Snippets for [Simple MVC Framework.](http://simplemvcframework.com)
+This is a Sublime Text package which includes a collection of Snippets for [Nova Framework.](http://novaframework.com)
 
 ## Installation
 
 ### With Package Control
 
-If you have [Package Control](https://packagecontrol.io/installation) installed, you can install SMVC Framework Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for Simple MVC Framework Snippets.
+If you have [Package Control](https://packagecontrol.io/installation) installed, you can install Nova Framework Snippets from inside Sublime Text itself. Open the Command Palette and select "Package Control: Install Package", then search for Nova Framework Snippets.
 
 All shortcuts start with the `sm` prefix to use type the snippet and press tab.
 
