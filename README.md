@@ -3,7 +3,7 @@ Nova Framework Snippets
 
 ![Nova Framework](https://novaframework.com/themes/nova/assets/images/nova.png)
 
-This is a Sublime Text package which includes a collection of Snippets for [Nova Framework.](http://novaframework.com)
+This is a Sublime Text package which includes a collection of Snippets for [Nova Framework.](https://novaframework.com)
 
 ## Installation
 
